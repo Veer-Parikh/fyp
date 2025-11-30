@@ -6,17 +6,19 @@ from zapv2 import ZAPv2
 logger = logging.getLogger("zap-client")
 logger.setLevel(logging.INFO)
 
-ZAP_API_KEY = "changeme_if_you_use_auth"     # Optional
-ZAP_PROXY = "http://127.0.0.1:8090"          # Your local ZAP
+ZAP_PROXY = "http://127.0.0.1:8090"
+ZAP_API_KEY = None  # Optional
 
-zap = ZAPv2(apikey=ZAP_API_KEY, proxies={"http": ZAP_PROXY, "https": ZAP_PROXY})
+zap = ZAPv2(
+    apikey=ZAP_API_KEY,
+    proxies={"http": ZAP_PROXY, "https": ZAP_PROXY}
+)
 
 # ---------------------------------------------------------
-# SAFE HELPERS — TIMEOUT PROTECTED (prevents hangs forever)
+# SAFE HELPERS — PROTECT FROM HANGS
 # ---------------------------------------------------------
 
 def _wait_for_spider(spider_id, timeout=60):
-    """ Wait for spider with timeout. """
     start = time.time()
     while True:
         try:
@@ -34,7 +36,6 @@ def _wait_for_spider(spider_id, timeout=60):
 
 
 def _wait_for_passive(timeout=60):
-    """ Wait for passive scan queue to drain. """
     start = time.time()
     while True:
         try:
@@ -52,7 +53,6 @@ def _wait_for_passive(timeout=60):
 
 
 def _wait_for_active(scan_id, timeout=180):
-    """ Wait for active scan to complete. """
     start = time.time()
     while True:
         try:
@@ -68,31 +68,29 @@ def _wait_for_active(scan_id, timeout=180):
 
         time.sleep(2)
 
-
 # ---------------------------------------------------------
-# MAIN FUNCTION — FAST, NORMAL, DEEP (no-hang implementation)
+# MAIN — FAST / NORMAL / EXTREME
 # ---------------------------------------------------------
 
-def run_zap_scan(target: str, spider_only: bool = True, mode: str = "fast"):
-    """
-    FAST  → Spider only (1–3 sec)
-    NORMAL → Spider + Passive (adds ~2-10 sec)
-    DEEP  → Spider + Passive + Active Scan (max 3 min, timeout-safe)
-    """
+def run_zap_scan(target: str, mode="fast", crawler_urls=None):
     logger.info(f"Starting ZAP scan mode={mode} for {target}")
 
-    # ------------------
+    # Feed crawler URLs first (optional)
+    if crawler_urls:
+        for u in crawler_urls:
+            try:
+                zap.urlopen(u)
+            except:
+                pass
+
     # 1. Spider
-    # ------------------
     spider_id = zap.spider.scan(target)
     spider_status = _wait_for_spider(spider_id)
 
     logger.info(f"Spider finished: {spider_status}")
 
-    # ------------------
-    # FAST MODE: STOP HERE
-    # ------------------
-    if mode == "fast" or spider_only:
+    # FAST MODE → STOP
+    if mode == "fast":
         alerts = zap.core.alerts(baseurl=target)
         return {
             "mode": "fast",
@@ -101,11 +99,9 @@ def run_zap_scan(target: str, spider_only: bool = True, mode: str = "fast"):
             "summary": _summarize(alerts),
         }
 
-    # ------------------
-    # 2. PASSIVE SCAN WAIT (NORMAL)
-    # ------------------
+    # 2. PASSIVE SCAN
     passive_status = _wait_for_passive()
-    logger.info(f"Passive scan status: {passive_status}")
+    logger.info(f"Passive scan finished: {passive_status}")
 
     if mode == "normal":
         alerts = zap.core.alerts(baseurl=target)
@@ -117,18 +113,15 @@ def run_zap_scan(target: str, spider_only: bool = True, mode: str = "fast"):
             "summary": _summarize(alerts),
         }
 
-    # ------------------
-    # 3. ACTIVE SCAN (DEEP MODE)
-    # ------------------
-    scan_id = zap.ascan.scan(target)
-    active_status = _wait_for_active(scan_id)
+    # 3. EXTREME MODE → Active Scan
+    ascan_id = zap.ascan.scan(target)
+    active_status = _wait_for_active(ascan_id)
 
-    logger.info(f"Active scan status: {active_status}")
+    logger.info(f"Active scan finished: {active_status}")
 
     alerts = zap.core.alerts(baseurl=target)
-
     return {
-        "mode": "deep",
+        "mode": "extreme",
         "spider_status": spider_status,
         "passive_status": passive_status,
         "active_status": active_status,
@@ -136,17 +129,13 @@ def run_zap_scan(target: str, spider_only: bool = True, mode: str = "fast"):
         "summary": _summarize(alerts),
     }
 
+# ---------------------------------------------------------
+# SUMMARY
+# ---------------------------------------------------------
 
-# ---------------------------------------------------------
-# Summary helper
-# ---------------------------------------------------------
 def _summarize(alerts):
-    """ Summarize ZAP alerts into counts. """
     counts = {"High": 0, "Medium": 0, "Low": 0, "Info": 0}
     for a in alerts:
-        counts[a.get("risk", "Info")] = counts.get(a.get("risk"), 0) + 1
-
-    return {
-        "total": sum(counts.values()),
-        "counts": counts
-    }
+        risk = a.get("risk", "Info")
+        counts[risk] = counts.get(risk, 0) + 1
+    return {"total": sum(counts.values()), "counts": counts}

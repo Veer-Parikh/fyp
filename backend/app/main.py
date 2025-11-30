@@ -79,10 +79,11 @@ def api_crawl(target: str, max_pages: int = 100, depth: int = 2, headless: bool 
 
 
 # Combined endpoint: Nmap + ZAP (+ optional crawler)
+
 @app.get("/scan/combined")
 def api_combined(
     target: str,
-    mode: str = Query("fast", regex="^(fast|normal|deep)$"),
+    mode: str = Query("fast", regex="^(fast|deep|extreme)$"),
     crawl: bool = False,
     crawl_pages: int = 50,
     crawl_depth: int = 2,
@@ -93,41 +94,73 @@ def api_combined(
     print("Starting combined scan for", target)
     host = clean_target(target)
     print("Cleaned host:", host)
-    # run nmap
+
+    # ---------------------------------------------------------
+    # 1. NMAP SCAN (fast / deep / extreme)
+    # ---------------------------------------------------------
+    print(f"Running Nmap scan (mode={mode})...")
     nmap_data = run_nmap_scan(host, mode=mode)
-    # run zap
-    print("Running ZAP scan...")
-    zap_data = run_zap_scan(target, spider_only=(mode == "fast"))
-    print("ZAP scan completed.")
-    # optional crawler (slow)
+    print("Nmap scan completed.")
+
+    # ---------------------------------------------------------
+    # 2. OPTIONAL CRAWLER (RUN BEFORE ZAP)
+    # ---------------------------------------------------------
     crawl_data = {"pages": [], "xhr": []}
+    crawler_urls = []
+
     if crawl:
+        print("Running crawler...")
         crawler = SeleniumCrawler(max_pages=crawl_pages, headless=True)
         try:
             crawl_data = crawler.crawl(target, max_depth=crawl_depth)
+            crawler_urls = [p["url"] for p in crawl_data.get("pages", [])]
         finally:
             crawler.close()
-    print("Crawl completed.")
+        print("Crawler completed.")
 
-    # compute risk and produce combined report
+    # ---------------------------------------------------------
+    # 3. ZAP SCAN (fast → spider only, deep → passive, extreme → active)
+    # ---------------------------------------------------------
+    print(f"Running ZAP (mode={mode})...")
+    zap_data = run_zap_scan(
+        target,
+        mode=mode,
+        crawler_urls=crawler_urls
+    )
+    print("ZAP scan completed.")
+
+    # ---------------------------------------------------------
+    # 4. RISK SCORE + RESPONSE
+    # ---------------------------------------------------------
     risk = compute_risk(nmap_data, zap_data)
+
     response_json = {
         "target": target,
         "host": host,
+        "mode": mode,
         "risk_score": risk,
         "nmap": nmap_data,
         "zap": zap_data,
-        "crawl": crawl_data
+        "crawl": crawl_data,
     }
 
+    # ---------------------------------------------------------
+    # 5. PDF OUTPUT (OPTIONAL)
+    # ---------------------------------------------------------
     if pdf:
-        # pdf_bytes uses LLM by default; pass use_llm param
         pdf_bytes = generate_pdf_bytes_from_report(
-            target, nmap_data, zap_data, crawl_data, risk, use_llm=use_llm, model=model
+            target, nmap_data, zap_data, crawl_data, risk,
+            use_llm=use_llm,
+            model=model
         )
-        return StreamingResponse(io.BytesIO(pdf_bytes), media_type="application/pdf",
-                                 headers={"Content-Disposition": f"attachment; filename=scan-combined-{host}.pdf"})
+        return StreamingResponse(
+            io.BytesIO(pdf_bytes),
+            media_type="application/pdf",
+            headers={"Content-Disposition": f"attachment; filename=scan-combined-{host}.pdf"}
+        )
+
     return JSONResponse(response_json)
+
 # @app.get("/scan/combined")
 # def api_combined(
 #     target: str,
