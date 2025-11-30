@@ -78,7 +78,7 @@ def run_nmap_scan(target: str, mode: str = "fast") -> Dict[str, Any]:
 
     cmd = f"nmap {args} {hostname}"
     logger.info("Running Nmap cmd: %s", cmd)
-git
+
     try:
         result = subprocess.run(
             shlex.split(cmd),
