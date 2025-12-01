@@ -15,12 +15,22 @@ from .zap_client import run_zap_scan
 from .crawler import SeleniumCrawler
 from .report_generator import generate_pdf, generate_pdf_bytes_from_report
 from .utils import compute_risk
+from fastapi.middleware.cors import CORSMiddleware
+
+
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("scan-api")
 
 app = FastAPI(title="FAST Scan API", version="1.0.0")
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 def _hostname(target: str) -> str:
     parsed = urlparse(target)
