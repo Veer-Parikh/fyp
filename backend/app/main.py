@@ -9,14 +9,13 @@ import logging
 import os
 import time
 import requests # NOTE: You must install this package: pip install requests
-
+import json
 from .nmap_scanner import run_nmap_scan, clean_target
 from .zap_client import run_zap_scan
 from .crawler import SeleniumCrawler
-from .report_generator import generate_pdf, generate_pdf_bytes_from_report
+from .report_generator import generate_pdf, generate_pdf_bytes_from_report, build_compact_context, call_gemini_structured
 from .utils import compute_risk
 from fastapi.middleware.cors import CORSMiddleware
-
 
 
 
@@ -90,6 +89,88 @@ def api_crawl(target: str, max_pages: int = 100, depth: int = 2, headless: bool 
 
 # Combined endpoint: Nmap + ZAP (+ optional crawler)
 
+# @app.get("/scan/combined")
+# def api_combined(
+#     target: str,
+#     mode: str = Query("fast", regex="^(fast|deep|extreme)$"),
+#     crawl: bool = False,
+#     crawl_pages: int = 50,
+#     crawl_depth: int = 2,
+#     use_llm: bool = True,
+#     pdf: bool = False,
+#     model: Optional[str] = None
+# ):
+#     print("Starting combined scan for", target)
+#     host = clean_target(target)
+#     print("Cleaned host:", host)
+
+#     # ---------------------------------------------------------
+#     # 1. NMAP SCAN (fast / deep / extreme)
+#     # ---------------------------------------------------------
+#     print(f"Running Nmap scan (mode={mode})...")
+#     nmap_data = run_nmap_scan(host, mode=mode)
+#     print("Nmap scan completed.")
+
+#     # ---------------------------------------------------------
+#     # 2. OPTIONAL CRAWLER (RUN BEFORE ZAP)
+#     # ---------------------------------------------------------
+#     crawl_data = {"pages": [], "xhr": []}
+#     crawler_urls = []
+
+#     if crawl:
+#         print("Running crawler...")
+#         crawler = SeleniumCrawler(max_pages=crawl_pages, headless=True)
+#         try:
+#             crawl_data = crawler.crawl(target, max_depth=crawl_depth)
+#             crawler_urls = [p["url"] for p in crawl_data.get("pages", [])]
+#         finally:
+#             crawler.close()
+#         print("Crawler completed.")
+
+#     # ---------------------------------------------------------
+#     # 3. ZAP SCAN (fast → spider only, deep → passive, extreme → active)
+#     # ---------------------------------------------------------
+#     print(f"Running ZAP (mode={mode})...")
+#     zap_data = run_zap_scan(
+#         target,
+#         mode=mode,
+#         crawler_urls=crawler_urls
+#     )
+#     print("ZAP scan completed.")
+
+#     # ---------------------------------------------------------
+#     # 4. RISK SCORE + RESPONSE
+#     # ---------------------------------------------------------
+#     risk = compute_risk(nmap_data, zap_data)
+
+#     response_json = {
+#         "target": target,
+#         "host": host,
+#         "mode": mode,
+#         "risk_score": risk,
+#         "nmap": nmap_data,
+#         "zap": zap_data,
+#         "crawl": crawl_data,
+#     }
+
+#     # ---------------------------------------------------------
+#     # 5. PDF OUTPUT (OPTIONAL)
+#     # ---------------------------------------------------------
+#     if pdf:
+#         pdf_bytes = generate_pdf_bytes_from_report(
+#             target, nmap_data, zap_data, crawl_data, risk,
+#             use_llm=use_llm,
+#             model=model
+#         )
+#         return StreamingResponse(
+#             io.BytesIO(pdf_bytes),
+#             media_type="application/pdf",
+#             headers={"Content-Disposition": f"attachment; filename=scan-combined-{host}.pdf"}
+#         )
+
+#     return JSONResponse(response_json)
+# paste this into backend/app/main.py (replace the old api_combined)
+
 @app.get("/scan/combined")
 def api_combined(
     target: str,
@@ -105,71 +186,105 @@ def api_combined(
     host = clean_target(target)
     print("Cleaned host:", host)
 
-    # ---------------------------------------------------------
-    # 1. NMAP SCAN (fast / deep / extreme)
-    # ---------------------------------------------------------
+    # 1) NMAP
     print(f"Running Nmap scan (mode={mode})...")
     nmap_data = run_nmap_scan(host, mode=mode)
     print("Nmap scan completed.")
 
-    # ---------------------------------------------------------
-    # 2. OPTIONAL CRAWLER (RUN BEFORE ZAP)
-    # ---------------------------------------------------------
-    crawl_data = {"pages": [], "xhr": []}
+    # 2) CRAWLER (run before ZAP so ZAP can use discovered URLs)
+    crawl_data = {"pages": [], "xhr": [], "js_files": []}
     crawler_urls = []
-
     if crawl:
         print("Running crawler...")
         crawler = SeleniumCrawler(max_pages=crawl_pages, headless=True)
         try:
             crawl_data = crawler.crawl(target, max_depth=crawl_depth)
-            crawler_urls = [p["url"] for p in crawl_data.get("pages", [])]
+            crawler_urls = [p.get("url") for p in crawl_data.get("pages", []) if p.get("url")]
         finally:
             crawler.close()
         print("Crawler completed.")
 
-    # ---------------------------------------------------------
-    # 3. ZAP SCAN (fast → spider only, deep → passive, extreme → active)
-    # ---------------------------------------------------------
+    # 3) ZAP
     print(f"Running ZAP (mode={mode})...")
-    zap_data = run_zap_scan(
-        target,
-        mode=mode,
-        crawler_urls=crawler_urls
-    )
+    zap_data = run_zap_scan(target, mode=mode, crawler_urls=crawler_urls)
     print("ZAP scan completed.")
 
-    # ---------------------------------------------------------
-    # 4. RISK SCORE + RESPONSE
-    # ---------------------------------------------------------
+    # 4) Risk
     risk = compute_risk(nmap_data, zap_data)
 
+   # 5) LLM — run ONCE and reuse for both JSON response and PDF
+    ai_output = None
+    if use_llm:
+        try:
+            compact = build_compact_context(nmap_data, zap_data, crawl_data, risk)
+            prompt = (
+                f"You are reviewing the following scan summary for {target}.\n\n"
+                f"{compact}\n\n"
+                "Return ONLY valid JSON with keys: executive_summary, technical_analysis, conclusion, remediation."
+            )
+            ai_output = call_gemini_structured(prompt, model=model)
+            print("LLM OUTPUT:", ai_output)
+        except Exception as e:
+            ai_output = {"error": "exception", "message": str(e)}
+            print("LLM ERROR:", e)
+
+    # 6) Build structured JSON result (include ai_output)
     response_json = {
-        "target": target,
-        "host": host,
-        "mode": mode,
-        "risk_score": risk,
-        "nmap": nmap_data,
-        "zap": zap_data,
-        "crawl": crawl_data,
+        "result": {
+            "target": host,
+            "scan_mode": mode,
+            "risk_score": risk,
+            "llm_used": bool(use_llm),
+            "ai": ai_output,
+            "nmap": {
+                "arguments": nmap_data.get("arguments"),
+                "ports": (
+                    nmap_data.get("ports")
+                    or nmap_data.get("hosts", [{}])[0].get("ports", [])
+                    or nmap_data.get("xml_raw", {}).get("nmaprun", {})
+                ),
+                "raw": nmap_data.get("xml_raw", nmap_data.get("raw"))
+            },
+            "zap": {
+                "mode": zap_data.get("mode"),
+                "alerts": zap_data.get("alerts", []),
+                "passive": zap_data.get("passive", [])
+            },
+            "crawler": {
+                "pages": crawl_data.get("pages", []),
+                "xhr_calls": crawl_data.get("xhr", []),
+                "js_files": crawl_data.get("js_files", []),
+            }
+        }
     }
 
-    # ---------------------------------------------------------
-    # 5. PDF OUTPUT (OPTIONAL)
-    # ---------------------------------------------------------
+    # 7) Optional PDF - pass the same ai_output to generate_pdf (no extra kwargs)
     if pdf:
-        pdf_bytes = generate_pdf_bytes_from_report(
-            target, nmap_data, zap_data, crawl_data, risk,
-            use_llm=use_llm,
-            model=model
-        )
-        return StreamingResponse(
-            io.BytesIO(pdf_bytes),
-            media_type="application/pdf",
-            headers={"Content-Disposition": f"attachment; filename=scan-combined-{host}.pdf"}
-        )
+        try:
+            pdf_bytes = generate_pdf(
+                target,
+                nmap_data,
+                zap_data,
+                crawl_data,
+                risk,
+                ai=ai_output
+            )
+
+            # Base64 encode PDF and return inside JSON body
+            import base64
+            pdf_b64 = base64.b64encode(pdf_bytes).decode()
+
+            return JSONResponse({
+                "pdf_base64": pdf_b64,
+                "result": response_json["result"]
+            })
+
+        except Exception as e:
+            return JSONResponse({"error": f"PDF generation failed: {str(e)}"}, status_code=500)
+
 
     return JSONResponse(response_json)
+
 
 # @app.get("/scan/combined")
 # def api_combined(
