@@ -1,10 +1,10 @@
-# backend/app/nmap_scanner.py
 import subprocess
 import xmltodict
 from urllib.parse import urlparse
 from typing import Dict, Any, List
 import logging
 import shlex
+import json
 
 logger = logging.getLogger("nmap-scanner")
 logger.setLevel(logging.INFO)
@@ -15,64 +15,100 @@ def clean_target(target: str) -> str:
     return parsed.hostname or target
 
 
-def _parse_ports_from_host(host_node: Dict[str, Any]) -> List[Dict[str, Any]]:
+def _extract_host_address(host_node):
     """
-    Given a single host node (xmltodict structure), return list of ports.
+    Extract best IP or hostname from <address> nodes.
+    Nmap sometimes gives multiple records.
     """
+    try:
+        addr = host_node.get("address")
+        if isinstance(addr, dict):
+            return addr.get("@addr", "")
+        if isinstance(addr, list):
+            for a in addr:
+                if a.get("@addr"):
+                    return a["@addr"]
+    except:
+        pass
+    return ""
+
+
+def _extract_hostname(host_node):
+    """Extract visible hostname (reverse DNS) if any."""
+    try:
+        h = host_node.get("hostnames", {}).get("hostname", [])
+
+        if isinstance(h, dict):  # single
+            return h.get("@name", "")
+
+        if isinstance(h, list) and len(h) > 0:
+            return h[0].get("@name", "")
+    except:
+        pass
+    return ""
+
+
+def _extract_ports(host_node):
+    """Return ports in FIXED report-friendly format."""
     ports_out = []
     try:
-        ports_block = host_node.get("ports", {}) or {}
-        ports = ports_block.get("port", [])
+        ports = host_node.get("ports", {}).get("port", [])
 
         if isinstance(ports, dict):
             ports = [ports]
 
         for p in ports:
-            # defensive access
-            portid = int(p.get("@portid", 0))
-            proto = p.get("@protocol", "")
-            state = p.get("state", {}).get("@state", "unknown")
-            service = p.get("service", {}).get("@name", "")
-
             ports_out.append({
-                "port": portid,
-                "protocol": proto,
-                "state": state,
-                "service": service
+                "port": int(p.get("@portid", 0)),
+                "protocol": p.get("@protocol", ""),
+                "state": p.get("state", {}).get("@state", ""),
+                "service": p.get("service", {}).get("@name", "")
             })
     except Exception as e:
-        logger.debug("Error parsing ports from host node: %s", e)
+        logger.error("Port parse error: %s", e)
     return ports_out
+
+def detect_firewall(nmap_xml) -> str:
+    """
+    Detects common firewall/WAF signatures from Nmap output.
+    Returns string message.
+    """
+    raw = json.dumps(nmap_xml).lower()
+
+    waf_rules = {
+        "cloudflare": ["cloudflare", "cf-ray"],
+        "akamai": ["akamai", "akamaiGHost".lower()],
+        "imperva": ["incapsula", "imperva"],
+        "azure": ["azure-frontdoor"],
+        "sucuri": ["sucuri"],
+        "f5": ["big-ip", "f5"],
+        "mod_security": ["mod_security", "modsecurity"],
+    }
+
+    for waf, sigs in waf_rules.items():
+        if any(sig in raw for sig in sigs):
+            return f"Detected Web Firewall: {waf}"
+
+    return "No firewall signatures detected"
 
 
 def run_nmap_scan(target: str, mode: str = "fast") -> Dict[str, Any]:
-    """
-    Run Nmap and return structured data compatible with report_generator:
-      {
-        "tool": "nmap",
-        "mode": "<fast|deep|extreme>",
-        "arguments": "<nmap args>",
-        "target": "<hostname>",
-        "hosts": [
-            {
-               "host": "1.2.3.4",
-               "hostname": "example.com",
-               "state": "up",
-               "ports": [ {port, protocol, state, service}, ... ]
-            },
-            ...
-        ],
-        "xml_raw": {...}
-      }
-    """
     hostname = clean_target(target)
 
+    # ---------------------------
+    # SCAN MODES
+    # ---------------------------
     if mode == "fast":
         args = "-T4 -F -Pn -oX -"
+
     elif mode == "deep":
+        # moderate depth scan
         args = "-T4 -sV -O -Pn -p 1-5000 -oX -"
+
     elif mode == "extreme":
+        # full, aggressive
         args = "-T4 -A -p- -Pn -oX -"
+
     else:
         args = "-T4 -F -Pn -oX -"
 
@@ -85,12 +121,10 @@ def run_nmap_scan(target: str, mode: str = "fast") -> Dict[str, Any]:
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
-            timeout=300  # set a generous timeout; tune as needed
+            timeout=300
         )
 
-        # if nmap itself failed, return the stderr for debugging
         if result.returncode != 0:
-            logger.error("Nmap returned non-zero exit code: %s", result.stderr)
             return {
                 "tool": "nmap",
                 "mode": mode,
@@ -99,52 +133,30 @@ def run_nmap_scan(target: str, mode: str = "fast") -> Dict[str, Any]:
                 "hosts": [],
                 "error": "nmap_failed",
                 "stderr": result.stderr,
-                "stdout": result.stdout,
             }
 
-        # parse XML
-        parsed_xml = xmltodict.parse(result.stdout)
+        xml = xmltodict.parse(result.stdout)
 
-        # get host nodes (handle single-host or list)
-        hosts_node = parsed_xml.get("nmaprun", {}).get("host", [])
-        if isinstance(hosts_node, dict):
-            hosts_node = [hosts_node]
+        # --------------------------------
+        # EXTRACT HOSTS SAFELY
+        # --------------------------------
+        host_nodes = xml.get("nmaprun", {}).get("host", [])
+        if isinstance(host_nodes, dict):
+            host_nodes = [host_nodes]
 
-        hosts_out: List[Dict[str, Any]] = []
-        for h in hosts_node:
-            # address could be under 'address' (dict) or list - handle both
-            addr_node = h.get("address", {})
-            ip = ""
-            if isinstance(addr_node, list):
-                # pick the first addr that has @addr
-                for a in addr_node:
-                    if a.get("@addr"):
-                        ip = a.get("@addr")
-                        break
-            elif isinstance(addr_node, dict):
-                ip = addr_node.get("@addr", "")
-
-            # hostname if available
-            hostname_node = h.get("hostnames", {}) or {}
-            hostnames = hostname_node.get("hostname", [])
-            hostname_text = ""
-            if isinstance(hostnames, dict):
-                hostname_text = hostnames.get("@name", "")
-            elif isinstance(hostnames, list) and len(hostnames) > 0:
-                # pick the first
-                hostname_text = hostnames[0].get("@name", "")
-
+        hosts_out = []
+        for h in host_nodes:
             state = h.get("status", {}).get("@state", "unknown")
-            ports = _parse_ports_from_host(h)
 
             hosts_out.append({
-                "host": ip or hostname,
-                "hostname": hostname_text,
+                "host": _extract_host_address(h),
+                "hostname": _extract_hostname(h),
                 "state": state,
-                "ports": ports
+                "ports": _extract_ports(h),
             })
 
-        logger.info("Nmap (%s) scan completed for %s; hosts found: %d", mode, hostname, len(hosts_out))
+        logger.info(f"Nmap ({mode}) scan complete → {len(hosts_out)} hosts")
+        waf = detect_firewall(xml)
 
         return {
             "tool": "nmap",
@@ -152,20 +164,21 @@ def run_nmap_scan(target: str, mode: str = "fast") -> Dict[str, Any]:
             "arguments": args,
             "target": hostname,
             "hosts": hosts_out,
-            "xml_raw": parsed_xml
+            "xml_raw": xml,
+            "waf_detection": waf,
         }
 
     except subprocess.TimeoutExpired:
-        logger.exception("Nmap timed out")
         return {
             "tool": "nmap",
             "mode": mode,
             "target": hostname,
             "hosts": [],
-            "error": "nmap_timeout"
+            "error": "timeout"
         }
+
     except Exception as e:
-        logger.exception("Nmap scan failed: %s", e)
+        logger.exception("Nmap scan failed")
         return {
             "tool": "nmap",
             "mode": mode,

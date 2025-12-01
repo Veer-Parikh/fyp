@@ -152,14 +152,28 @@ def _truncate(text: str, length: int = 120) -> str:
 
 
 def _add_table(story, headers, rows, col_widths=None):
-    t = Table([headers] + rows, colWidths=col_widths)
+    styles = getSampleStyleSheet()
+    cell = ParagraphStyle(
+        "cell", parent=styles["Normal"], fontSize=8, leading=10, wordWrap="CJK"
+    )
+
+    wrapped_rows = []
+    for row in rows:
+        wrapped_rows.append([Paragraph(str(col), cell) for col in row])
+
+    wrapped_headers = [Paragraph(str(h), cell) for h in headers]
+
+    t = Table([wrapped_headers] + wrapped_rows, colWidths=col_widths, repeatRows=1)
     t.setStyle(TableStyle([
-        ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor("#eeeeee")),
+        ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor("#e8e8e8")),
         ('GRID', (0, 0), (-1, -1), 0.25, colors.black),
         ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+        ('FONTSIZE', (0, 0), (-1, -1), 8),
     ]))
+
     story.append(t)
     story.append(Spacer(1, 8))
+
 
 
 # ---------------------------------
@@ -196,6 +210,10 @@ def _build_story(target: str, nmap_data, zap_data, crawl_data, risk_score, ai):
         story.append(_p("No hosts scanned.", normal))
 
     story.append(Spacer(1, 12))
+    
+    story.append(_p(f"Firewall / WAF Detection: {nmap_data.get('waf_detection','Unknown')}", normal))
+    story.append(Spacer(1, 10))
+
 
     # ZAP section
     story.append(_p("ZAP Findings", heading))

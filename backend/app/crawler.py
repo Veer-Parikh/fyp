@@ -20,23 +20,43 @@ DEFAULT_WAIT = 1.0
 class SeleniumCrawler:
     def __init__(self, max_pages: int = 200, headless: bool = True, page_timeout: int = 20):
         options = Options()
+
+        # Headless mode (modern)
         if headless:
             options.add_argument("--headless=new")
+
+        # Stable crawling options
         options.add_argument("--disable-gpu")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--ignore-certificate-errors")
         options.add_argument("--window-size=1366,768")
+        options.add_argument("--disable-blink-features=AutomationControlled")
+        options.add_argument("--disable-extensions")
+
+        # Disable images for speed
         prefs = {"profile.managed_default_content_settings.images": 2}
         options.add_experimental_option("prefs", prefs)
+
+        # ✔ FIX: Remove unsupported "performance" logging
+        # Chrome 142 supports only "browser" log type reliably
+        options.set_capability("goog:loggingPrefs", {"browser": "ALL"})  # keep this
+        options.set_capability("pageLoadStrategy", "normal")             # stability
+
+
+        # Launch ChromeDriver
         service = Service(ChromeDriverManager().install())
         self.driver = webdriver.Chrome(service=service, options=options)
+
+        # Page timeout
         self.driver.set_page_load_timeout(page_timeout)
 
+        # Crawler state
         self.max_pages = max_pages
         self.visited = set()
         self.to_visit = deque()
         self.xhr = set()
+
 
     def _normalize(self, base: str, link: str) -> str:
         if not link:
@@ -52,17 +72,26 @@ class SeleniumCrawler:
             return False
 
     def _collect_xhr(self):
+        """Collect XHR/fetch URLs from browser console logs (Chrome 142 safe)."""
         try:
-            # performance logs may require enabling performance logging in options; best-effort
-            for entry in self.driver.get_log("performance"):
+            logs = self.driver.get_log("browser")
+            for entry in logs:
                 msg = entry.get("message", "")
+
+                # Extract URL inside console log messages
                 m = re.search(r'"url":"([^"]+)"', msg)
                 if m:
-                    u = m.group(1)
-                    if u.startswith("http"):
-                        self.xhr.add(u)
+                    url = m.group(1)
+                    if url.startswith("http"):
+                        self.xhr.add(url)
+
+                # Very loose fallback detection
+                if "XMLHttpRequest" in msg or "fetch" in msg:
+                    self.xhr.add(msg)
+
         except Exception:
             pass
+
     def crawl(self, start_url: str, max_depth: int = 2):
         visited = set()
         queue = [(start_url, 0)]
@@ -85,6 +114,25 @@ class SeleniumCrawler:
                 self.driver.get(url)
                 time.sleep(1)
 
+                # ---- NEW WORKING XHR DETECTION ----
+                try:
+                    logs = self.driver.get_log("browser")
+                    for entry in logs:
+                        msg = entry.get("message", "")
+
+                        if "XMLHttpRequest" in msg or "fetch" in msg:
+                            self.xhr.add(msg)
+
+                        m = re.search(r'"url":"([^"]+)"', msg)
+                        if m:
+                            u = m.group(1)
+                            if u.startswith("http"):
+                                results["api_calls"].add(u)
+
+                except Exception:
+                    pass
+                # ------------------------------------
+
                 title = self.driver.title
                 html = self.driver.page_source
 
@@ -106,17 +154,6 @@ class SeleniumCrawler:
                     if src and src.startswith(start_url):
                         results["js_files"].add(src)
 
-                # XHR / fetch network logs
-                logs = self.driver.get_log("performance")
-                for entry in logs:
-                    msg = json.loads(entry["message"])
-                    if "Network.requestWillBeSent" in msg["message"]["method"]:
-                        req = msg["message"]["params"]["request"]
-                        url_req = req.get("url")
-                        if url_req and url_req.startswith(start_url):
-                            if any(method in req.get("method", "") for method in ["POST", "PUT", "DELETE", "PATCH"]):
-                                results["api_calls"].add(url_req)
-
             except Exception as e:
                 logger.warning(f"Error crawling {url}: {e}")
 
@@ -124,8 +161,10 @@ class SeleniumCrawler:
         results["links"] = list(results["links"])
         results["js_files"] = list(results["js_files"])
         results["api_calls"] = list(results["api_calls"])
+        results["xhr"] = list(self.xhr)
 
         return results
+
 
 
     # def crawl(self, start_url: str, max_depth: int = 2) -> Dict[str, Any]:
