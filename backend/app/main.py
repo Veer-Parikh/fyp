@@ -1,6 +1,6 @@
 # backend/app/main.py
 from typing import Optional
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Body
 from fastapi.responses import JSONResponse, StreamingResponse
 from fastapi.background import BackgroundTasks
 from urllib.parse import urlparse
@@ -16,6 +16,10 @@ from .crawler import SeleniumCrawler
 from .report_generator import generate_pdf, generate_pdf_bytes_from_report, build_compact_context, call_gemini_structured
 from .utils import compute_risk
 from fastapi.middleware.cors import CORSMiddleware
+
+from .attack_graph import build_attack_graph, extract_attack_paths
+from .killchain_report import generate_killchain_pdf
+import base64
 
 
 
@@ -38,6 +42,7 @@ def _hostname(target: str) -> str:
 
 @app.get("/")
 def root():
+    print("Health check OK")
     return {"status": "running", "version": "1.0.0"}
 
 
@@ -284,6 +289,76 @@ def api_combined(
 
 
     return JSONResponse(response_json)
+
+@app.post("/security/killchain")
+def api_killchain(payload: dict = Body(...)):
+    """
+    Accepts the existing scan result JSON and builds a kill-chain graph + PDF.
+    Frontend can just send the 'results' object it already has.
+    """
+    try:
+        # sometimes payload might already be {"result": {...}}
+        result = payload.get("result", payload)
+    except AttributeError:
+        raise HTTPException(status_code=400, detail="Invalid payload format")
+
+    nmap = result.get("nmap") or {}
+    zap = result.get("zap") or {}
+    crawler = result.get("crawler") or {}
+    ai = result.get("ai") or {}
+
+    # Build graph + attack paths
+    G = build_attack_graph(nmap, zap, crawler)
+    attack_paths = extract_attack_paths(G)
+
+    # Serialize nodes/edges for ReactFlow
+    graph_nodes = []
+    type_columns = {"port": 0, "page": 1, "vuln": 2, "threat": 3}
+    spacing_y = 90
+    counters = {t: 0 for t in type_columns.keys()}
+
+    for node_id, data in G.nodes(data=True):
+        t = data.get("type", "other")
+        col = type_columns.get(t, 1)
+        idx = counters.get(t, 0)
+        counters[t] = idx + 1
+
+        x = 200 * col
+        y = 60 + spacing_y * idx
+
+        graph_nodes.append({
+            "id": node_id,
+            "type": t,
+            "label": data.get("label", node_id),
+            "position": {"x": x, "y": y},
+            "data": {
+                "label": data.get("label", node_id),
+                "risk": data.get("risk"),
+                "url": data.get("url"),
+            },
+        })
+
+    graph_edges = []
+    for u, v, data in G.edges(data=True):
+        graph_edges.append({
+            "id": f"{u}->{v}",
+            "source": u,
+            "target": v,
+            "label": data.get("relation", ""),
+        })
+
+    # Build Kill-Chain PDF (XAI + paths)
+    pdf_bytes = generate_killchain_pdf(result, attack_paths)
+    pdf_b64 = base64.b64encode(pdf_bytes).decode()
+
+    return JSONResponse({
+        "graph": {
+            "nodes": graph_nodes,
+            "edges": graph_edges,
+        },
+        "attack_paths": attack_paths,
+        "pdf_base64": pdf_b64,
+    })
 
 
 # @app.get("/scan/combined")
