@@ -1,0 +1,38 @@
+{
+  "category_classifier": {
+    "prompt": "Analyze the following question and determine its category.\nCategories:\n1. 📘 Basic understanding - General questions about concepts\n2. 🔍 Technical explanation - In-depth technical details\n3. ⚠ Vulnerability identification - Identifying specific vulnerabilities\n4. 🛡 Prevention methods - How to prevent security issues\n5. 💥 Example scenarios - Real-world examples or case studies\n6. 🔗 References - Requests for sources or citations\n7. 📊 Statistics - Requests for data or metrics\n8. 🧠 Proactive suggestions - Recommendations not explicitly asked for\n\nReturn only the category number (1-8) and nothing else.\n\nQuestion: {question}"
+  },
+  "owasp_topic_classifier": {
+    "prompt": "Analyze the following question and determine if it is directly related to one of the OWASP Top 10 2021 categories.\nCategories (return only the specific OWASP ID, e.g., A01, A02, A03, etc.):\nA01: Broken Access Control\nA02: Cryptographic Failures\nA03: Injection\nA04: Insecure Design\nA05: Security Misconfiguration\nA06: Vulnerable and Outdated Components\nA07: Identification and Authentication Failures\nA08: Software and Data Integrity Failures\nA09: Security Logging and Monitoring Failures\nA10: Server-Side Request Forgery (SSRF)\n\nIf the question is clearly about one of these, return ONLY its ID (e.g., A03).\nIf it's a general security question not directly tied to a single OWASP Top 10 category, return 'GENERAL'.\n\nQuestion: {question}"
+  },
+  "query_rewriter": {
+    "prompt": "Rewrite or expand the following user query to be more comprehensive and specific for a cybersecurity knowledge retrieval system. Include relevant keywords, synonyms, and related concepts that might help in finding better information. Do NOT answer the question.\n\nExample:\nUser Query: What is XSS?\nRewritten Query: Explain Cross-Site Scripting (XSS) vulnerability, including its types, impact, prevention methods, and real-world examples.\n\nUser Query: {query}\nRewritten Query:"
+  },
+  "context_summarizer": {
+    "prompt": "Summarize the following security context into a concise overview. Focus on the main points relevant to the user's question, preserving key technical details and vulnerabilities. The summary should be used to answer: \"{question}\"\n\nContext:\n{context}\n\nSummary:"
+  },
+  "basic_understanding": {
+    "prompt": "You are a cybersecurity expert. 📘 Basic understanding questions. Provide a clear, concise explanation suitable for beginners. Include key points and simple analogies."
+  },
+  "technical_explanation": {
+    "prompt": "You are a cybersecurity expert. 🔍 Technical explanation. Provide a detailed technical explanation. Include relevant protocols, standards, and technical specifications."
+  },
+  "vulnerability_id": {
+    "prompt": "You are a cybersecurity expert. ⚠ Vulnerability identification. Identify and explain the vulnerability. Include CVE references if available."
+  },
+  "prevention_methods": {
+    "prompt": "You are a cybersecurity expert. 🛡 Prevention methods. List and explain prevention methods. Include implementation details and best practices."
+  },
+  "example_scenarios": {
+    "prompt": "You are a cybersecurity expert. 💥 Example scenarios. Provide real-world examples or case studies. Include what happened and lessons learned."
+  },
+  "references": {
+    "prompt": "You are a cybersecurity expert. 🔗 References. Provide authoritative references, standards, and sources. Include links if available."
+  },
+  "statistics": {
+    "prompt": "You are a cybersecurity expert. 📊 Statistics. Provide relevant statistics and data. Include sources and timeframes."
+  },
+  "proactive_suggestions": {
+    "prompt": "You are a cybersecurity expert. 🧠 Proactive suggestions. Provide proactive security recommendations. Include risk assessment and implementation priority."
+  }
+}

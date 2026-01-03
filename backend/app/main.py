@@ -16,6 +16,7 @@ from .crawler import SeleniumCrawler
 from .report_generator import generate_pdf, generate_pdf_bytes_from_report, build_compact_context, call_gemini_structured
 from .utils import compute_risk
 from fastapi.middleware.cors import CORSMiddleware
+from .chat_router import router as chat_router
 
 from .attack_graph import build_attack_graph, extract_attack_paths
 from .killchain_report import generate_killchain_pdf
@@ -59,6 +60,7 @@ def api_nmap(target: str, mode: str = Query("fast", regex="^(fast|normal|deep)$"
                                  headers={"Content-Disposition": "attachment; filename=scan-nmap.pdf"})
     return JSONResponse(payload)
 
+app.include_router(chat_router, prefix="/api", tags=["Chatbot"])
 
 # ZAP Endpoint
 @app.get("/scan/zap")
