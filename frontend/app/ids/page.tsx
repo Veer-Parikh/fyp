@@ -9,7 +9,6 @@ import { AlertCircle, TrendingUp, Activity } from "lucide-react"
 export default function IDSPage() {
   return (
     <>
-      <Navbar />
       <main className="min-h-screen bg-background">
         {/* Background grid */}
         <div className="fixed inset-0 opacity-5 pointer-events-none">

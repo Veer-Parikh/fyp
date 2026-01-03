@@ -3,8 +3,13 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
+import { BotMessageSquare } from "lucide-react"
 
-export function Navbar() {
+interface NavbarProps {
+  onChatToggle: () => void;
+}
+
+export function Navbar({ onChatToggle }: NavbarProps) {
   const pathname = usePathname()
 
   const isActive = (path: string) => {
@@ -39,10 +44,21 @@ export function Navbar() {
             </Link>
           </div>
 
-          {/* Status indicator */}
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 rounded-full bg-accent animate-pulse"></div>
-            <span className="font-mono text-xs text-muted-foreground">ONLINE</span>
+          {/* Chat Toggle & Status */}
+          <div className="flex items-center gap-6">
+            <button 
+              onClick={onChatToggle}
+              className="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors duration-300 group"
+              title="Toggle Security AI"
+            >
+              <BotMessageSquare className="w-5 h-5 group-hover:scale-110 transition-transform" />
+              <span className="hidden lg:inline font-mono text-xs">SECURITY AI</span>
+            </button>
+            
+            <div className="flex items-center gap-2 border-l border-border/50 pl-6">
+              <div className="w-2 h-2 rounded-full bg-accent animate-pulse"></div>
+              <span className="font-mono text-xs text-muted-foreground uppercase">Online</span>
+            </div>
           </div>
         </div>
       </div>

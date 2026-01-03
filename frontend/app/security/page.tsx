@@ -652,7 +652,6 @@ export default function SecurityPage() {
 
   return (
     <>
-      <Navbar />
       <main className="min-h-screen bg-background">
         {/* Background grid */}
         <div className="fixed inset-0 opacity-5 pointer-events-none">

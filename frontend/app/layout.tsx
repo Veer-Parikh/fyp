@@ -1,12 +1,18 @@
-import type React from "react"
-// <CHANGE> Updated metadata and added dark mode support
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import { ClientLayout } from "@/components/client-layout" // <--- Import the wrapper
 import "./globals.css"
 
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+const geist = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+})
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+})
 
 export const metadata: Metadata = {
   title: "IDS XAI Suite - Advanced Security Detection",
@@ -38,8 +44,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`font-sans antialiased bg-background text-foreground`}>
-        {children}
+      <body
+        className={`${geist.variable} ${geistMono.variable} font-sans antialiased bg-background text-foreground`}
+      >
+        {/* We wrap everything in the ClientLayout to handle state */}
+        <ClientLayout>
+          {children}
+        </ClientLayout>
+        
         <Analytics />
       </body>
     </html>
