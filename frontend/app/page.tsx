@@ -8,7 +8,6 @@ import { ChevronRight, Zap, Shield, Brain, Globe } from "lucide-react"
 export default function Home() {
   return (
     <>
-      <Navbar />
       <main className="min-h-screen bg-background">
         {/* Animated background grid */}
         <div className="fixed inset-0 opacity-5 pointer-events-none">

@@ -510,7 +510,7 @@ export default function SecurityPage() {
       })
 
       const response = await fetch(
-        `http://localhost:8000/scan/combined?${params.toString()}`,
+        `http://localhost:9000/scan/combined?${params.toString()}`,
         {
           method: "GET",
           mode: "cors",
@@ -567,7 +567,7 @@ export default function SecurityPage() {
     setKillchainError(null);
 
     try {
-      const response = await fetch("http://localhost:8000/security/killchain", {
+      const response = await fetch("http://localhost:9000/security/killchain", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ result: results.result }),
@@ -620,7 +620,7 @@ export default function SecurityPage() {
     });
 
     // 2. Send PNG to backend
-    const response = await fetch("http://localhost:8000/security/killchain", {
+    const response = await fetch("http://localhost:9000/security/killchain", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

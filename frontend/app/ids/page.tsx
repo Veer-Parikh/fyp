@@ -111,3 +111,178 @@ function PlaceholderCard({ title, description, icon }: { title: string; descript
     </Card>
   )
 }
+// "use client"
+
+// import { useState, ReactNode } from "react"
+
+// import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+// import { Button } from "@/components/ui/button"
+// import { Input } from "@/components/ui/input"
+
+// import { Activity, Brain } from "lucide-react"
+
+// /* ---------- Types ---------- */
+// type XAIItem = {
+//   feature: string
+//   impact: number
+// }
+
+// type PredictionResult = {
+//   prediction: string
+//   confidence: number
+//   explanation: XAIItem[]
+// }
+
+// export default function IDSPage() {
+//   const [features, setFeatures] = useState<number[]>(Array(7).fill(0))
+//   const [loading, setLoading] = useState(false)
+//   const [result, setResult] = useState<PredictionResult | null>(null)
+
+//   const handleChange = (index: number, value: string) => {
+//     const updated = [...features]
+//     updated[index] = Number(value)
+//     setFeatures(updated)
+//   }
+
+//   const analyzeTraffic = async () => {
+//     setLoading(true)
+//     setResult(null)
+
+//     try {
+//       const res = await fetch("http://localhost:9000/predict", {
+//         method: "POST",
+//         headers: {
+//           "Content-Type": "application/json",
+//         },
+//         body: JSON.stringify({
+//           features: features, // ✅ FIXED
+//         }),
+//       })
+
+//       if (!res.ok) {
+//         throw new Error("Backend error")
+//       }
+
+//       const data: PredictionResult = await res.json()
+//       setResult(data)
+//     } catch (err) {
+//       console.error(err)
+//       setResult(null)
+//     } finally {
+//       setLoading(false)
+//     }
+//   }
+
+//   return (
+//     <main className="min-h-screen bg-background">
+//       <section className="relative max-w-7xl mx-auto px-6 py-24 space-y-16">
+
+//         {/* Header */}
+//         <div>
+//           <h1 className="text-4xl font-bold font-mono mb-4">
+//             Intrusion Detection System
+//           </h1>
+//           <p className="text-lg text-muted-foreground">
+//             Real-time threat detection with Explainable AI
+//           </p>
+//         </div>
+
+//         <div className="grid md:grid-cols-2 gap-8">
+
+//           {/* INPUT */}
+//           <Card className="bg-card/50">
+//             <CardHeader>
+//               <CardTitle className="font-mono flex items-center gap-2">
+//                 <Activity className="text-accent" />
+//                 Traffic Input
+//               </CardTitle>
+//               <CardDescription>
+//                 Enter PCA-transformed network features
+//               </CardDescription>
+//             </CardHeader>
+
+//             <CardContent className="space-y-4">
+//               {features.map((_, i) => (
+//                 <Input
+//                   key={i}
+//                   type="number"
+//                   placeholder={`Principal Component ${i + 1}`}
+//                   onChange={(e) => handleChange(i, e.target.value)}
+//                 />
+//               ))}
+
+//               <Button
+//                 className="w-full mt-4"
+//                 onClick={analyzeTraffic}
+//                 disabled={loading}
+//               >
+//                 {loading ? "Analyzing..." : "Analyze Traffic"}
+//               </Button>
+//             </CardContent>
+//           </Card>
+
+//           {/* OUTPUT */}
+//           <Card className="bg-card/50">
+//             <CardHeader>
+//               <CardTitle className="font-mono flex items-center gap-2">
+//                 <Brain className="text-accent" />
+//                 Model Output & XAI
+//               </CardTitle>
+//               <CardDescription>
+//                 Prediction, confidence, and explanation
+//               </CardDescription>
+//             </CardHeader>
+
+//             <CardContent>
+//               {!result ? (
+//                 <p className="text-muted-foreground text-sm">
+//                   Awaiting analysis input...
+//                 </p>
+//               ) : (
+//                 <div className="space-y-6">
+
+//                   {/* Prediction */}
+//                   <div>
+//                     <p className="font-mono text-accent">{"> Prediction"}</p>
+//                     <p className="text-lg font-semibold">
+//                       {result.prediction}
+//                     </p>
+//                     <p className="text-sm text-muted-foreground">
+//                       Confidence: {(result.confidence * 100).toFixed(2)}%
+//                     </p>
+//                   </div>
+
+//                   {/* XAI */}
+//                   <div>
+//                     <p className="font-mono text-accent mb-2">
+//                       {"> XAI Feature Importance"}
+//                     </p>
+
+//                     <div className="space-y-2">
+//                       {result.explanation.map((f, idx) => (
+//                         <div key={idx}>
+//                           <div className="flex justify-between text-sm">
+//                             <span>{f.feature}</span>
+//                             <span>{(Math.abs(f.impact) * 100).toFixed(1)}%</span>
+//                           </div>
+//                           <div className="h-2 bg-muted rounded">
+//                             <div
+//                               className="h-2 bg-accent rounded"
+//                               style={{ width: `${Math.abs(f.impact) * 100}%` }}
+//                             />
+//                           </div>
+//                         </div>
+//                       ))}
+//                     </div>
+//                   </div>
+
+//                 </div>
+//               )}
+//             </CardContent>
+//           </Card>
+
+//         </div>
+//       </section>
+//     </main>
+//   )
+// }

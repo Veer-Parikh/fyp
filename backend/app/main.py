@@ -8,8 +8,10 @@ import io
 import logging
 import os
 import time
-import requests # NOTE: You must install this package: pip install requests
+import requests 
 import json
+
+# from .xai import SHAPExplainer
 from .nmap_scanner import run_nmap_scan, clean_target
 from .zap_client import run_zap_scan
 from .crawler import SeleniumCrawler
@@ -21,7 +23,7 @@ from .chat_router import router as chat_router
 from .attack_graph import build_attack_graph, extract_attack_paths
 from .killchain_report import generate_killchain_pdf
 import base64
-
+import numpy as np   
 
 
 logging.basicConfig(level=logging.INFO)
@@ -46,6 +48,36 @@ def root():
     print("Health check OK")
     return {"status": "running", "version": "1.0.0"}
 
+# @app.post("/predict")
+# def predict(payload: dict):
+#     """
+#     payload = {
+#         "features": [f1, f2, f3, ...]
+#     }
+#     """
+
+#     # Convert input
+#     X = np.array(payload["features"]).reshape(1, -1)
+
+#     # Scale input
+#     X_scaled = scaler.transform(X)
+
+#     # Predict
+#     prob = float(model.predict(X_scaled)[0][0])
+#     prediction = "Attack" if prob > 0.5 else "Normal"
+
+#     # SHAP explanation
+#     shap_values = shap_explainer.explain_instance(X_scaled)
+#     explanation = format_shap_explanation(
+#         feature_names,
+#         shap_values
+#     )
+
+#     return {
+#         "prediction": prediction,
+#         "confidence": round(prob, 4),
+#         "explanation": explanation
+#     }
 
 # NMAP Endpoint
 @app.get("/scan/nmap")
