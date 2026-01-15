@@ -2,13 +2,13 @@
 from typing import Dict, Any
 import json
 import joblib
-import tensorflow as tf
-import h5py
+# import tensorflow as tf
+# import h5py
 # from tensorflow.keras.models import model_from_json
 
-MODEL_PATH = "app/models/ids_dnn_model.h5"
-SCALER_PATH = "app/models/scaler.pkl"
-FEATURES_PATH = "app/models/feature_names.json"
+# MODEL_PATH = "app/models/ids_dnn_model.h5"
+# SCALER_PATH = "app/models/scaler.pkl"
+# FEATURES_PATH = "app/models/feature_names.json"
 
 # tweakable risk weights
 ZAP_SEV = {"High": 9.0, "Medium": 5.0, "Low": 2.0, "Info": 0.5}
