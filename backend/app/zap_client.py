@@ -6,7 +6,7 @@ from zapv2 import ZAPv2
 logger = logging.getLogger("zap-client")
 logger.setLevel(logging.INFO)
 
-ZAP_PROXY = "http://zap:8080"
+ZAP_PROXY = "http://127.0.0.1:8090"
 ZAP_API_KEY = None  # Optional
 
 zap = ZAPv2(

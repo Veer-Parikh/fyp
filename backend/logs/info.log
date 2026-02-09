@@ -1,0 +1,2221 @@
+2026-02-07 01:36:56 - 
+2026-02-07 01:36:56 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 01:37:03 - Error while opening file for capture: ./cicflowmeter/runtime\2466333b-0b85-4924-8327-453d2cf3bbc4CIC-DDoS-2019-WebDDoS.pcap: No such file or directory
+2026-02-07 01:39:47 - 
+2026-02-07 01:39:47 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 01:39:47 - Error while opening file for capture: C:\Users\user\Desktop\Veer\bkl fyp\backend\cicflowmeter\runtime\012a25d2-2656-45e1-9801-b67125354921CIC-DDoS-2019-WebDDoS.pcap: No such file or directory
+2026-02-07 01:43:32 - 
+2026-02-07 01:43:32 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 01:43:33 - 
+2026-02-07 01:43:33 - 
+2026-02-07 01:43:33 - Working on... CIC-DDoS-2019-WebDDoS.pcap 
+2026-02-07 01:43:33 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:33 - Forward flow received 2 FIN packets
+2026-02-07 01:43:33 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:33 - Forward flow received 2 FIN packets
+2026-02-07 01:43:33 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:33 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Forward flow closed due to FIN Flag
+2026-02-07 01:43:34 - Forward flow received 2 FIN packets
+2026-02-07 01:43:34 - Done! in 0 seconds
+2026-02-07 01:43:34 - 	 Total packets: 3104
+2026-02-07 01:43:34 - 	 Valid packets: 3104
+2026-02-07 01:43:34 - 	 Ignored packets:0 0 
+2026-02-07 01:43:34 - PCAP duration 1541 seconds
+2026-02-07 01:43:34 - ----------------------------------------------------------------------------
+2026-02-07 01:43:35 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 362
+2026-02-07 01:43:35 - ----------------------------------------------------------------------------
+
+2026-02-07 01:47:53 - 
+2026-02-07 01:47:53 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 01:47:54 - 
+2026-02-07 01:47:54 - 
+2026-02-07 01:47:54 - Working on... generated_good_tcp.pcap 
+2026-02-07 01:47:54 - Done! in 0 seconds
+2026-02-07 01:47:54 - 	 Total packets: 3
+2026-02-07 01:47:54 - 	 Valid packets: 3
+2026-02-07 01:47:54 - 	 Ignored packets:0 0 
+2026-02-07 01:47:54 - PCAP duration 0 seconds
+2026-02-07 01:47:54 - ----------------------------------------------------------------------------
+2026-02-07 01:47:55 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-07 01:47:55 - ----------------------------------------------------------------------------
+
+2026-02-07 01:50:39 - 
+2026-02-07 01:50:39 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 01:50:40 - 
+2026-02-07 01:50:40 - 
+2026-02-07 01:50:40 - Working on... CIC-DDoS-2019-WebDDoS.pcap 
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:40 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:40 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Forward flow closed due to FIN Flag
+2026-02-07 01:50:41 - Forward flow received 2 FIN packets
+2026-02-07 01:50:41 - Done! in 1 seconds
+2026-02-07 01:50:41 - 	 Total packets: 3104
+2026-02-07 01:50:41 - 	 Valid packets: 3104
+2026-02-07 01:50:41 - 	 Ignored packets:0 0 
+2026-02-07 01:50:41 - PCAP duration 1541 seconds
+2026-02-07 01:50:41 - ----------------------------------------------------------------------------
+2026-02-07 01:50:42 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 362
+2026-02-07 01:50:42 - ----------------------------------------------------------------------------
+
+2026-02-07 01:56:26 - 
+2026-02-07 01:56:26 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 01:56:27 - 
+2026-02-07 01:56:27 - 
+2026-02-07 01:56:27 - Working on... CIC-DDoS-2019-WebDDoS.pcap 
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:28 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:28 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Forward flow closed due to FIN Flag
+2026-02-07 01:56:29 - Forward flow received 2 FIN packets
+2026-02-07 01:56:29 - Done! in 1 seconds
+2026-02-07 01:56:29 - 	 Total packets: 3104
+2026-02-07 01:56:29 - 	 Valid packets: 3104
+2026-02-07 01:56:29 - 	 Ignored packets:0 0 
+2026-02-07 01:56:29 - PCAP duration 1541 seconds
+2026-02-07 01:56:29 - ----------------------------------------------------------------------------
+2026-02-07 01:56:30 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 362
+2026-02-07 01:56:30 - ----------------------------------------------------------------------------
+
+2026-02-07 01:59:12 - 
+2026-02-07 01:59:12 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 01:59:12 - 
+2026-02-07 01:59:12 - 
+2026-02-07 01:59:12 - Working on... CIC-DDoS-2019-WebDDoS.pcap 
+2026-02-07 01:59:12 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:12 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Forward flow closed due to FIN Flag
+2026-02-07 01:59:13 - Forward flow received 2 FIN packets
+2026-02-07 01:59:13 - Done! in 1 seconds
+2026-02-07 01:59:13 - 	 Total packets: 3104
+2026-02-07 01:59:13 - 	 Valid packets: 3104
+2026-02-07 01:59:13 - 	 Ignored packets:0 0 
+2026-02-07 01:59:13 - PCAP duration 1541 seconds
+2026-02-07 01:59:13 - ----------------------------------------------------------------------------
+2026-02-07 01:59:14 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 362
+2026-02-07 01:59:14 - ----------------------------------------------------------------------------
+
+2026-02-07 13:37:46 - 
+2026-02-07 13:37:46 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 13:37:48 - 
+2026-02-07 13:37:48 - 
+2026-02-07 13:37:48 - Working on... generated_good_tcp.pcap 
+2026-02-07 13:37:48 - Done! in 0 seconds
+2026-02-07 13:37:48 - 	 Total packets: 3
+2026-02-07 13:37:48 - 	 Valid packets: 3
+2026-02-07 13:37:48 - 	 Ignored packets:0 0 
+2026-02-07 13:37:48 - PCAP duration 0 seconds
+2026-02-07 13:37:48 - ----------------------------------------------------------------------------
+2026-02-07 13:37:49 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-07 13:37:49 - ----------------------------------------------------------------------------
+
+2026-02-07 13:57:37 - 
+2026-02-07 13:57:37 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 13:57:40 - 
+2026-02-07 13:57:40 - 
+2026-02-07 13:57:40 - Working on... generated_good_tcp.pcap 
+2026-02-07 13:57:40 - Done! in 0 seconds
+2026-02-07 13:57:40 - 	 Total packets: 3
+2026-02-07 13:57:40 - 	 Valid packets: 3
+2026-02-07 13:57:40 - 	 Ignored packets:0 0 
+2026-02-07 13:57:40 - PCAP duration 0 seconds
+2026-02-07 13:57:40 - ----------------------------------------------------------------------------
+2026-02-07 13:57:40 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-07 13:57:40 - ----------------------------------------------------------------------------
+
+2026-02-07 21:58:56 - 
+2026-02-07 21:58:56 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 21:58:57 - 
+2026-02-07 21:58:57 - 
+2026-02-07 21:58:57 - Working on... CIC-DDoS-2019-WebDDoS.pcap 
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:57 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Forward flow closed due to FIN Flag
+2026-02-07 21:58:58 - Forward flow received 2 FIN packets
+2026-02-07 21:58:58 - Done! in 0 seconds
+2026-02-07 21:58:58 - 	 Total packets: 3104
+2026-02-07 21:58:58 - 	 Valid packets: 3104
+2026-02-07 21:58:58 - 	 Ignored packets:0 0 
+2026-02-07 21:58:58 - PCAP duration 1541 seconds
+2026-02-07 21:58:58 - ----------------------------------------------------------------------------
+2026-02-07 21:58:58 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 362
+2026-02-07 21:58:58 - ----------------------------------------------------------------------------
+
+2026-02-07 22:05:29 - 
+2026-02-07 22:05:29 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 22:05:30 - 
+2026-02-07 22:05:30 - 
+2026-02-07 22:05:30 - Working on... CIC-DDoS-2019-WebDDoS.pcap 
+2026-02-07 22:05:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:30 - Forward flow received 2 FIN packets
+2026-02-07 22:05:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:30 - Forward flow received 2 FIN packets
+2026-02-07 22:05:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:30 - Forward flow received 2 FIN packets
+2026-02-07 22:05:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:30 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Forward flow closed due to FIN Flag
+2026-02-07 22:05:31 - Forward flow received 2 FIN packets
+2026-02-07 22:05:31 - Done! in 1 seconds
+2026-02-07 22:05:31 - 	 Total packets: 3104
+2026-02-07 22:05:31 - 	 Valid packets: 3104
+2026-02-07 22:05:31 - 	 Ignored packets:0 0 
+2026-02-07 22:05:31 - PCAP duration 1541 seconds
+2026-02-07 22:05:31 - ----------------------------------------------------------------------------
+2026-02-07 22:05:32 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 362
+2026-02-07 22:05:32 - ----------------------------------------------------------------------------
+
+2026-02-07 22:30:41 - 
+2026-02-07 22:30:41 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 22:30:42 - 
+2026-02-07 22:30:42 - 
+2026-02-07 22:30:42 - Working on... tcp.pcap 
+2026-02-07 22:30:42 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:42 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:42 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:43 - Forward flow closed due to FIN Flag
+2026-02-07 22:30:44 - Done! in 1 seconds
+2026-02-07 22:30:44 - 	 Total packets: 4197
+2026-02-07 22:30:44 - 	 Valid packets: 2738
+2026-02-07 22:30:44 - 	 Ignored packets:1459 1459 
+2026-02-07 22:30:44 - PCAP duration 115 seconds
+2026-02-07 22:30:44 - ----------------------------------------------------------------------------
+2026-02-07 22:30:44 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 292
+2026-02-07 22:30:44 - ----------------------------------------------------------------------------
+
+2026-02-07 22:35:28 - 
+2026-02-07 22:35:28 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 22:35:29 - 
+2026-02-07 22:35:29 - 
+2026-02-07 22:35:29 - Working on... CIC-DDoS-2019-WebDDoS.pcap 
+2026-02-07 22:35:29 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:29 - Forward flow received 2 FIN packets
+2026-02-07 22:35:29 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:29 - Forward flow received 2 FIN packets
+2026-02-07 22:35:29 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:29 - Forward flow received 2 FIN packets
+2026-02-07 22:35:29 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:29 - Forward flow received 2 FIN packets
+2026-02-07 22:35:29 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:29 - Forward flow received 2 FIN packets
+2026-02-07 22:35:29 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:29 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Forward flow closed due to FIN Flag
+2026-02-07 22:35:30 - Forward flow received 2 FIN packets
+2026-02-07 22:35:30 - Done! in 0 seconds
+2026-02-07 22:35:30 - 	 Total packets: 3104
+2026-02-07 22:35:30 - 	 Valid packets: 3104
+2026-02-07 22:35:30 - 	 Ignored packets:0 0 
+2026-02-07 22:35:30 - PCAP duration 1541 seconds
+2026-02-07 22:35:30 - ----------------------------------------------------------------------------
+2026-02-07 22:35:30 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 362
+2026-02-07 22:35:30 - ----------------------------------------------------------------------------
+
+2026-02-07 22:37:58 - 
+2026-02-07 22:37:58 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 22:37:59 - 
+2026-02-07 22:37:59 - 
+2026-02-07 22:37:59 - Working on... CIC-DDoS-2019-WebDDoS.pcap 
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Forward flow closed due to FIN Flag
+2026-02-07 22:37:59 - Forward flow received 2 FIN packets
+2026-02-07 22:37:59 - Done! in 0 seconds
+2026-02-07 22:37:59 - 	 Total packets: 3104
+2026-02-07 22:37:59 - 	 Valid packets: 3104
+2026-02-07 22:37:59 - 	 Ignored packets:0 0 
+2026-02-07 22:37:59 - PCAP duration 1541 seconds
+2026-02-07 22:37:59 - ----------------------------------------------------------------------------
+2026-02-07 22:38:00 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 362
+2026-02-07 22:38:00 - ----------------------------------------------------------------------------
+
+2026-02-07 22:43:20 - 
+2026-02-07 22:43:20 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 22:43:21 - 
+2026-02-07 22:43:21 - 
+2026-02-07 22:43:21 - Working on... CIC-DDoS-2019-WebDDoS.pcap 
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Forward flow closed due to FIN Flag
+2026-02-07 22:43:21 - Forward flow received 2 FIN packets
+2026-02-07 22:43:21 - Done! in 0 seconds
+2026-02-07 22:43:21 - 	 Total packets: 3104
+2026-02-07 22:43:21 - 	 Valid packets: 3104
+2026-02-07 22:43:21 - 	 Ignored packets:0 0 
+2026-02-07 22:43:21 - PCAP duration 1541 seconds
+2026-02-07 22:43:21 - ----------------------------------------------------------------------------
+2026-02-07 22:43:22 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 362
+2026-02-07 22:43:22 - ----------------------------------------------------------------------------
+
+2026-02-07 22:56:30 - 
+2026-02-07 22:56:30 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 22:56:30 - 
+2026-02-07 22:56:30 - 
+2026-02-07 22:56:30 - Working on... tiny_attack.pcap 
+2026-02-07 22:56:31 - Done! in 0 seconds
+2026-02-07 22:56:31 - 	 Total packets: 70
+2026-02-07 22:56:31 - 	 Valid packets: 70
+2026-02-07 22:56:31 - 	 Ignored packets:0 0 
+2026-02-07 22:56:31 - PCAP duration 0 seconds
+2026-02-07 22:56:31 - ----------------------------------------------------------------------------
+2026-02-07 22:56:31 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-07 22:56:31 - ----------------------------------------------------------------------------
+
+2026-02-07 23:02:19 - 
+2026-02-07 23:02:19 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 23:02:20 - 
+2026-02-07 23:02:20 - 
+2026-02-07 23:02:20 - Working on... tiny_attack.pcap 
+2026-02-07 23:02:20 - Done! in 0 seconds
+2026-02-07 23:02:20 - 	 Total packets: 70
+2026-02-07 23:02:20 - 	 Valid packets: 70
+2026-02-07 23:02:20 - 	 Ignored packets:0 0 
+2026-02-07 23:02:20 - PCAP duration 0 seconds
+2026-02-07 23:02:20 - ----------------------------------------------------------------------------
+2026-02-07 23:02:20 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-07 23:02:20 - ----------------------------------------------------------------------------
+
+2026-02-07 23:08:10 - 
+2026-02-07 23:08:10 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 23:08:11 - 
+2026-02-07 23:08:11 - 
+2026-02-07 23:08:11 - Working on... tiny_attack.pcap 
+2026-02-07 23:08:11 - Done! in 0 seconds
+2026-02-07 23:08:11 - 	 Total packets: 70
+2026-02-07 23:08:11 - 	 Valid packets: 70
+2026-02-07 23:08:11 - 	 Ignored packets:0 0 
+2026-02-07 23:08:11 - PCAP duration 0 seconds
+2026-02-07 23:08:11 - ----------------------------------------------------------------------------
+2026-02-07 23:08:11 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-07 23:08:11 - ----------------------------------------------------------------------------
+
+2026-02-07 23:09:34 - 
+2026-02-07 23:09:34 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 23:09:34 - 
+2026-02-07 23:09:34 - 
+2026-02-07 23:09:34 - Working on... tiny_attack.pcap 
+2026-02-07 23:09:34 - Done! in 0 seconds
+2026-02-07 23:09:34 - 	 Total packets: 70
+2026-02-07 23:09:34 - 	 Valid packets: 70
+2026-02-07 23:09:34 - 	 Ignored packets:0 0 
+2026-02-07 23:09:34 - PCAP duration 0 seconds
+2026-02-07 23:09:34 - ----------------------------------------------------------------------------
+2026-02-07 23:09:34 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-07 23:09:34 - ----------------------------------------------------------------------------
+
+2026-02-07 23:12:21 - 
+2026-02-07 23:12:21 - CICFlowMeterV2 found: 1 Files.
+2026-02-07 23:12:23 - 
+2026-02-07 23:12:23 - 
+2026-02-07 23:12:23 - Working on... tiny_attack.pcap 
+2026-02-07 23:12:24 - Done! in 0 seconds
+2026-02-07 23:12:24 - 	 Total packets: 70
+2026-02-07 23:12:24 - 	 Valid packets: 70
+2026-02-07 23:12:24 - 	 Ignored packets:0 0 
+2026-02-07 23:12:24 - PCAP duration 0 seconds
+2026-02-07 23:12:24 - ----------------------------------------------------------------------------
+2026-02-07 23:12:25 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-07 23:12:25 - ----------------------------------------------------------------------------
+
+2026-02-08 15:57:29 - 
+2026-02-08 15:57:29 - CICFlowMeterV2 found: 1 Files.
+2026-02-08 15:57:30 - 
+2026-02-08 15:57:30 - 
+2026-02-08 15:57:30 - Working on... tiny_attack.pcap 
+2026-02-08 15:57:30 - Done! in 0 seconds
+2026-02-08 15:57:30 - 	 Total packets: 70
+2026-02-08 15:57:30 - 	 Valid packets: 70
+2026-02-08 15:57:30 - 	 Ignored packets:0 0 
+2026-02-08 15:57:30 - PCAP duration 0 seconds
+2026-02-08 15:57:30 - ----------------------------------------------------------------------------
+2026-02-08 15:57:30 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-08 15:57:30 - ----------------------------------------------------------------------------
+
+2026-02-08 16:01:53 - 
+2026-02-08 16:01:53 - CICFlowMeterV2 found: 1 Files.
+2026-02-08 16:01:55 - 
+2026-02-08 16:01:55 - 
+2026-02-08 16:01:55 - Working on... tiny_attack.pcap 
+2026-02-08 16:01:55 - Done! in 0 seconds
+2026-02-08 16:01:55 - 	 Total packets: 70
+2026-02-08 16:01:55 - 	 Valid packets: 70
+2026-02-08 16:01:55 - 	 Ignored packets:0 0 
+2026-02-08 16:01:55 - PCAP duration 0 seconds
+2026-02-08 16:01:55 - ----------------------------------------------------------------------------
+2026-02-08 16:01:55 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-08 16:01:55 - ----------------------------------------------------------------------------
+
+2026-02-08 16:05:51 - 
+2026-02-08 16:05:52 - CICFlowMeterV2 found: 1 Files.
+2026-02-08 16:05:53 - 
+2026-02-08 16:05:53 - 
+2026-02-08 16:05:53 - Working on... tiny_attack.pcap 
+2026-02-08 16:05:53 - Done! in 0 seconds
+2026-02-08 16:05:53 - 	 Total packets: 70
+2026-02-08 16:05:53 - 	 Valid packets: 70
+2026-02-08 16:05:53 - 	 Ignored packets:0 0 
+2026-02-08 16:05:53 - PCAP duration 0 seconds
+2026-02-08 16:05:53 - ----------------------------------------------------------------------------
+2026-02-08 16:05:53 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-08 16:05:53 - ----------------------------------------------------------------------------
+
+2026-02-08 16:28:03 - 
+2026-02-08 16:28:03 - CICFlowMeterV2 found: 1 Files.
+2026-02-08 16:28:04 - 
+2026-02-08 16:28:04 - 
+2026-02-08 16:28:04 - Working on... tiny_attack.pcap 
+2026-02-08 16:28:04 - Done! in 0 seconds
+2026-02-08 16:28:04 - 	 Total packets: 70
+2026-02-08 16:28:04 - 	 Valid packets: 70
+2026-02-08 16:28:04 - 	 Ignored packets:0 0 
+2026-02-08 16:28:04 - PCAP duration 0 seconds
+2026-02-08 16:28:04 - ----------------------------------------------------------------------------
+2026-02-08 16:28:04 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-08 16:28:04 - ----------------------------------------------------------------------------
+
+2026-02-08 16:29:43 - 
+2026-02-08 16:29:43 - CICFlowMeterV2 found: 1 Files.
+2026-02-08 16:29:46 - 
+2026-02-08 16:29:46 - 
+2026-02-08 16:29:46 - Working on... tiny_attack.pcap 
+2026-02-08 16:29:47 - Done! in 0 seconds
+2026-02-08 16:29:47 - 	 Total packets: 70
+2026-02-08 16:29:47 - 	 Valid packets: 70
+2026-02-08 16:29:47 - 	 Ignored packets:0 0 
+2026-02-08 16:29:47 - PCAP duration 0 seconds
+2026-02-08 16:29:47 - ----------------------------------------------------------------------------
+2026-02-08 16:29:48 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-08 16:29:48 - ----------------------------------------------------------------------------
+
+2026-02-08 19:08:56 - 
+2026-02-08 19:08:56 - CICFlowMeterV2 found: 1 Files.
+2026-02-08 19:08:57 - 
+2026-02-08 19:08:57 - 
+2026-02-08 19:08:57 - Working on... tiny_attack.pcap 
+2026-02-08 19:08:57 - Done! in 0 seconds
+2026-02-08 19:08:57 - 	 Total packets: 70
+2026-02-08 19:08:57 - 	 Valid packets: 70
+2026-02-08 19:08:57 - 	 Ignored packets:0 0 
+2026-02-08 19:08:57 - PCAP duration 0 seconds
+2026-02-08 19:08:57 - ----------------------------------------------------------------------------
+2026-02-08 19:08:57 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-08 19:08:57 - ----------------------------------------------------------------------------
+
+2026-02-08 19:13:58 - 
+2026-02-08 19:13:58 - CICFlowMeterV2 found: 1 Files.
+2026-02-08 19:13:58 - 
+2026-02-08 19:13:58 - 
+2026-02-08 19:13:58 - Working on... tiny_attack.pcap 
+2026-02-08 19:13:58 - Done! in 0 seconds
+2026-02-08 19:13:58 - 	 Total packets: 70
+2026-02-08 19:13:58 - 	 Valid packets: 70
+2026-02-08 19:13:58 - 	 Ignored packets:0 0 
+2026-02-08 19:13:58 - PCAP duration 0 seconds
+2026-02-08 19:13:58 - ----------------------------------------------------------------------------
+2026-02-08 19:13:59 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-08 19:13:59 - ----------------------------------------------------------------------------
+
+2026-02-08 19:15:25 - 
+2026-02-08 19:15:25 - CICFlowMeterV2 found: 1 Files.
+2026-02-08 19:15:26 - 
+2026-02-08 19:15:26 - 
+2026-02-08 19:15:26 - Working on... CIC-DDoS-2019-WebDDoS.pcap 
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 - Forward flow received 2 FIN packets
+2026-02-08 19:15:26 - Done! in 0 seconds
+2026-02-08 19:15:26 - 	 Total packets: 3104
+2026-02-08 19:15:26 - 	 Valid packets: 3104
+2026-02-08 19:15:26 - 	 Ignored packets:0 0 
+2026-02-08 19:15:26 - PCAP duration 1541 seconds
+2026-02-08 19:15:26 - ----------------------------------------------------------------------------
+2026-02-08 19:15:27 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 362
+2026-02-08 19:15:27 - ----------------------------------------------------------------------------
+
+2026-02-09 13:32:35 - 
+2026-02-09 13:32:35 - CICFlowMeterV2 found: 1 Files.
+2026-02-09 13:32:36 - 
+2026-02-09 13:32:36 - 
+2026-02-09 13:32:36 - Working on... tiny_attack.pcap 
+2026-02-09 13:32:36 - Done! in 0 seconds
+2026-02-09 13:32:36 - 	 Total packets: 70
+2026-02-09 13:32:36 - 	 Valid packets: 70
+2026-02-09 13:32:36 - 	 Ignored packets:0 0 
+2026-02-09 13:32:36 - PCAP duration 0 seconds
+2026-02-09 13:32:36 - ----------------------------------------------------------------------------
+2026-02-09 13:32:36 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-09 13:32:36 - ----------------------------------------------------------------------------
+
+2026-02-09 13:42:32 - 
+2026-02-09 13:42:32 - CICFlowMeterV2 found: 1 Files.
+2026-02-09 13:42:33 - 
+2026-02-09 13:42:33 - 
+2026-02-09 13:42:33 - Working on... tiny_attack.pcap 
+2026-02-09 13:42:33 - Done! in 0 seconds
+2026-02-09 13:42:33 - 	 Total packets: 70
+2026-02-09 13:42:33 - 	 Valid packets: 70
+2026-02-09 13:42:33 - 	 Ignored packets:0 0 
+2026-02-09 13:42:33 - PCAP duration 0 seconds
+2026-02-09 13:42:33 - ----------------------------------------------------------------------------
+2026-02-09 13:42:34 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-09 13:42:34 - ----------------------------------------------------------------------------
+
+2026-02-09 13:58:21 - 
+2026-02-09 13:58:21 - CICFlowMeterV2 found: 1 Files.
+2026-02-09 13:58:22 - 
+2026-02-09 13:58:22 - 
+2026-02-09 13:58:22 - Working on... tiny_attack.pcap 
+2026-02-09 13:58:22 - Done! in 0 seconds
+2026-02-09 13:58:22 - 	 Total packets: 70
+2026-02-09 13:58:22 - 	 Valid packets: 70
+2026-02-09 13:58:22 - 	 Ignored packets:0 0 
+2026-02-09 13:58:22 - PCAP duration 0 seconds
+2026-02-09 13:58:22 - ----------------------------------------------------------------------------
+2026-02-09 13:58:22 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-09 13:58:22 - ----------------------------------------------------------------------------
+
+2026-02-09 14:01:57 - 
+2026-02-09 14:01:57 - CICFlowMeterV2 found: 1 Files.
+2026-02-09 14:02:03 - 
+2026-02-09 14:02:03 - 
+2026-02-09 14:02:03 - Working on... tiny_attack.pcap 
+2026-02-09 14:02:04 - Done! in 0 seconds
+2026-02-09 14:02:04 - 	 Total packets: 70
+2026-02-09 14:02:04 - 	 Valid packets: 70
+2026-02-09 14:02:04 - 	 Ignored packets:0 0 
+2026-02-09 14:02:04 - PCAP duration 0 seconds
+2026-02-09 14:02:04 - ----------------------------------------------------------------------------
+2026-02-09 14:02:04 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-09 14:02:04 - ----------------------------------------------------------------------------
+
+2026-02-09 14:11:54 - 
+2026-02-09 14:11:54 - CICFlowMeterV2 found: 1 Files.
+2026-02-09 14:12:03 - 
+2026-02-09 14:12:03 - 
+2026-02-09 14:12:03 - Working on... tiny_attack.pcap 
+2026-02-09 14:12:05 - Done! in 1 seconds
+2026-02-09 14:12:05 - 	 Total packets: 70
+2026-02-09 14:12:05 - 	 Valid packets: 70
+2026-02-09 14:12:05 - 	 Ignored packets:0 0 
+2026-02-09 14:12:05 - PCAP duration 0 seconds
+2026-02-09 14:12:05 - ----------------------------------------------------------------------------
+2026-02-09 14:12:06 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-09 14:12:06 - ----------------------------------------------------------------------------
+
+2026-02-09 14:25:31 - 
+2026-02-09 14:25:31 - CICFlowMeterV2 found: 1 Files.
+2026-02-09 14:25:35 - 
+2026-02-09 14:25:35 - 
+2026-02-09 14:25:35 - Working on... tiny_attack.pcap 
+2026-02-09 14:25:35 - Done! in 0 seconds
+2026-02-09 14:25:35 - 	 Total packets: 70
+2026-02-09 14:25:35 - 	 Valid packets: 70
+2026-02-09 14:25:35 - 	 Ignored packets:0 0 
+2026-02-09 14:25:35 - PCAP duration 0 seconds
+2026-02-09 14:25:35 - ----------------------------------------------------------------------------
+2026-02-09 14:25:35 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-09 14:25:35 - ----------------------------------------------------------------------------
+
+2026-02-09 14:29:49 - 
+2026-02-09 14:29:49 - CICFlowMeterV2 found: 1 Files.
+2026-02-09 14:29:54 - 
+2026-02-09 14:29:54 - 
+2026-02-09 14:29:54 - Working on... tiny_attack.pcap 
+2026-02-09 14:29:55 - Done! in 0 seconds
+2026-02-09 14:29:55 - 	 Total packets: 70
+2026-02-09 14:29:55 - 	 Valid packets: 70
+2026-02-09 14:29:55 - 	 Ignored packets:0 0 
+2026-02-09 14:29:55 - PCAP duration 0 seconds
+2026-02-09 14:29:55 - ----------------------------------------------------------------------------
+2026-02-09 14:29:56 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-09 14:29:56 - ----------------------------------------------------------------------------
+
+2026-02-09 14:32:59 - 
+2026-02-09 14:32:59 - CICFlowMeterV2 found: 1 Files.
+2026-02-09 14:33:08 - 
+2026-02-09 14:33:08 - 
+2026-02-09 14:33:08 - Working on... tiny_attack.pcap 
+2026-02-09 14:33:08 - Done! in 0 seconds
+2026-02-09 14:33:08 - 	 Total packets: 70
+2026-02-09 14:33:08 - 	 Valid packets: 70
+2026-02-09 14:33:08 - 	 Ignored packets:0 0 
+2026-02-09 14:33:08 - PCAP duration 0 seconds
+2026-02-09 14:33:08 - ----------------------------------------------------------------------------
+2026-02-09 14:33:09 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-09 14:33:09 - ----------------------------------------------------------------------------
+
+2026-02-09 14:35:00 - 
+2026-02-09 14:35:00 - CICFlowMeterV2 found: 1 Files.
+2026-02-09 14:35:01 - 
+2026-02-09 14:35:03 - 
+2026-02-09 14:35:03 - Working on... tiny_attack.pcap 
+2026-02-09 14:35:03 - Done! in 0 seconds
+2026-02-09 14:35:03 - 	 Total packets: 70
+2026-02-09 14:35:03 - 	 Valid packets: 70
+2026-02-09 14:35:03 - 	 Ignored packets:0 0 
+2026-02-09 14:35:03 - PCAP duration 0 seconds
+2026-02-09 14:35:03 - ----------------------------------------------------------------------------
+2026-02-09 14:35:03 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-09 14:35:03 - ----------------------------------------------------------------------------
+
+2026-02-09 14:39:46 - 
+2026-02-09 14:39:46 - CICFlowMeterV2 found: 1 Files.
+2026-02-09 14:39:48 - 
+2026-02-09 14:39:48 - 
+2026-02-09 14:39:48 - Working on... tiny_attack.pcap 
+2026-02-09 14:39:48 - Done! in 0 seconds
+2026-02-09 14:39:48 - 	 Total packets: 70
+2026-02-09 14:39:48 - 	 Valid packets: 70
+2026-02-09 14:39:48 - 	 Ignored packets:0 0 
+2026-02-09 14:39:48 - PCAP duration 0 seconds
+2026-02-09 14:39:48 - ----------------------------------------------------------------------------
+2026-02-09 14:39:48 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-09 14:39:48 - ----------------------------------------------------------------------------
+
+2026-02-09 14:44:40 - 
+2026-02-09 14:44:40 - CICFlowMeterV2 found: 1 Files.
+2026-02-09 14:44:41 - 
+2026-02-09 14:44:41 - 
+2026-02-09 14:44:41 - Working on... tiny_attack.pcap 
+2026-02-09 14:44:42 - Done! in 0 seconds
+2026-02-09 14:44:42 - 	 Total packets: 70
+2026-02-09 14:44:42 - 	 Valid packets: 70
+2026-02-09 14:44:42 - 	 Ignored packets:0 0 
+2026-02-09 14:44:42 - PCAP duration 0 seconds
+2026-02-09 14:44:42 - ----------------------------------------------------------------------------
+2026-02-09 14:44:42 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-09 14:44:42 - ----------------------------------------------------------------------------
+
+2026-02-09 14:46:04 - 
+2026-02-09 14:46:04 - CICFlowMeterV2 found: 1 Files.
+2026-02-09 14:46:06 - 
+2026-02-09 14:46:06 - 
+2026-02-09 14:46:06 - Working on... tiny_attack.pcap 
+2026-02-09 14:46:07 - Done! in 0 seconds
+2026-02-09 14:46:07 - 	 Total packets: 70
+2026-02-09 14:46:07 - 	 Valid packets: 70
+2026-02-09 14:46:07 - 	 Ignored packets:0 0 
+2026-02-09 14:46:07 - PCAP duration 0 seconds
+2026-02-09 14:46:07 - ----------------------------------------------------------------------------
+2026-02-09 14:46:07 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-09 14:46:07 - ----------------------------------------------------------------------------
+
+2026-02-09 14:48:59 - 
+2026-02-09 14:48:59 - CICFlowMeterV2 found: 1 Files.
+2026-02-09 14:49:01 - 
+2026-02-09 14:49:01 - 
+2026-02-09 14:49:01 - Working on... tiny_attack.pcap 
+2026-02-09 14:49:01 - Done! in 0 seconds
+2026-02-09 14:49:01 - 	 Total packets: 70
+2026-02-09 14:49:01 - 	 Valid packets: 70
+2026-02-09 14:49:01 - 	 Ignored packets:0 0 
+2026-02-09 14:49:01 - PCAP duration 0 seconds
+2026-02-09 14:49:01 - ----------------------------------------------------------------------------
+2026-02-09 14:49:02 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-09 14:49:02 - ----------------------------------------------------------------------------
+
+2026-02-09 14:50:47 - 
+2026-02-09 14:50:47 - CICFlowMeterV2 found: 1 Files.
+2026-02-09 14:50:49 - 
+2026-02-09 14:50:49 - 
+2026-02-09 14:50:49 - Working on... tiny_attack.pcap 
+2026-02-09 14:50:49 - Done! in 0 seconds
+2026-02-09 14:50:49 - 	 Total packets: 70
+2026-02-09 14:50:49 - 	 Valid packets: 70
+2026-02-09 14:50:49 - 	 Ignored packets:0 0 
+2026-02-09 14:50:49 - PCAP duration 0 seconds
+2026-02-09 14:50:49 - ----------------------------------------------------------------------------
+2026-02-09 14:50:49 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-09 14:50:49 - ----------------------------------------------------------------------------
+
+2026-02-09 15:29:18 - 
+2026-02-09 15:29:18 - CICFlowMeterV2 found: 1 Files.
+2026-02-09 15:29:20 - 
+2026-02-09 15:29:20 - 
+2026-02-09 15:29:20 - Working on... tiny_attack.pcap 
+2026-02-09 15:29:20 - Done! in 0 seconds
+2026-02-09 15:29:20 - 	 Total packets: 70
+2026-02-09 15:29:20 - 	 Valid packets: 70
+2026-02-09 15:29:20 - 	 Ignored packets:0 0 
+2026-02-09 15:29:20 - PCAP duration 0 seconds
+2026-02-09 15:29:20 - ----------------------------------------------------------------------------
+2026-02-09 15:29:20 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-09 15:29:20 - ----------------------------------------------------------------------------
+

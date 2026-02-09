@@ -1,0 +1,531 @@
+2026-02-08 15:57:29 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 15:57:29 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeterV2 found: 1 Files.
+2026-02-08 15:57:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 15:57:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 15:57:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... tiny_attack.pcap 
+2026-02-08 15:57:30 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Desktop\Veer\bkl fyp\backend\cicflowmeter\runtime\ac870255-82f8-4167-9308-851ba6957f08\tiny_attack.pcap
+2026-02-08 15:57:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2026-02-08 15:57:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 70
+2026-02-08 15:57:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 70
+2026-02-08 15:57:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2026-02-08 15:57:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 0 seconds
+2026-02-08 15:57:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2026-02-08 15:57:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2026-02-08 15:57:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2026-02-08 15:57:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 20,1
+2026-02-08 15:57:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-08 15:57:30 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2026-02-08 16:01:53 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 16:01:53 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeterV2 found: 1 Files.
+2026-02-08 16:01:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 16:01:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 16:01:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... tiny_attack.pcap 
+2026-02-08 16:01:55 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Desktop\Veer\bkl fyp\backend\cicflowmeter\runtime\3b14127c-b8fb-4d48-bd97-f1b8c84f9a84\tiny_attack.pcap
+2026-02-08 16:01:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2026-02-08 16:01:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 70
+2026-02-08 16:01:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 70
+2026-02-08 16:01:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2026-02-08 16:01:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 0 seconds
+2026-02-08 16:01:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2026-02-08 16:01:55 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2026-02-08 16:01:55 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2026-02-08 16:01:55 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 20,1
+2026-02-08 16:01:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-08 16:01:55 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2026-02-08 16:05:51 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 16:05:52 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeterV2 found: 1 Files.
+2026-02-08 16:05:53 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 16:05:53 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 16:05:53 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... tiny_attack.pcap 
+2026-02-08 16:05:53 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Desktop\Veer\bkl fyp\backend\cicflowmeter\runtime\a085ea8f-331b-4245-baaa-22edadddf2c4\tiny_attack.pcap
+2026-02-08 16:05:53 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2026-02-08 16:05:53 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 70
+2026-02-08 16:05:53 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 70
+2026-02-08 16:05:53 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2026-02-08 16:05:53 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 0 seconds
+2026-02-08 16:05:53 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2026-02-08 16:05:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2026-02-08 16:05:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2026-02-08 16:05:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 20,1
+2026-02-08 16:05:53 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-08 16:05:53 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2026-02-08 16:28:03 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 16:28:03 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeterV2 found: 1 Files.
+2026-02-08 16:28:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 16:28:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 16:28:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... tiny_attack.pcap 
+2026-02-08 16:28:04 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Desktop\Veer\bkl fyp\backend\cicflowmeter\runtime\439a5d27-a51f-40ad-b7aa-3d3d93d4882b\tiny_attack.pcap
+2026-02-08 16:28:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2026-02-08 16:28:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 70
+2026-02-08 16:28:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 70
+2026-02-08 16:28:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2026-02-08 16:28:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 0 seconds
+2026-02-08 16:28:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2026-02-08 16:28:04 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2026-02-08 16:28:04 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2026-02-08 16:28:04 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 20,1
+2026-02-08 16:28:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-08 16:28:04 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2026-02-08 16:29:43 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 16:29:43 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeterV2 found: 1 Files.
+2026-02-08 16:29:46 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 16:29:46 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 16:29:46 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... tiny_attack.pcap 
+2026-02-08 16:29:47 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Desktop\Veer\bkl fyp\backend\cicflowmeter\runtime\22720551-9f40-43bc-a966-3a01f86dedb6\tiny_attack.pcap
+2026-02-08 16:29:47 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2026-02-08 16:29:47 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 70
+2026-02-08 16:29:47 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 70
+2026-02-08 16:29:47 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2026-02-08 16:29:47 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 0 seconds
+2026-02-08 16:29:47 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2026-02-08 16:29:47 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2026-02-08 16:29:47 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2026-02-08 16:29:48 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 20,1
+2026-02-08 16:29:48 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-08 16:29:48 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2026-02-08 19:08:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 19:08:56 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeterV2 found: 1 Files.
+2026-02-08 19:08:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 19:08:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 19:08:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... tiny_attack.pcap 
+2026-02-08 19:08:57 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Desktop\Veer\bkl fyp\backend\cicflowmeter\runtime\d9db75e3-cbbf-49c8-8bcb-a1da498967d6\tiny_attack.pcap
+2026-02-08 19:08:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2026-02-08 19:08:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 70
+2026-02-08 19:08:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 70
+2026-02-08 19:08:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2026-02-08 19:08:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 0 seconds
+2026-02-08 19:08:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2026-02-08 19:08:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2026-02-08 19:08:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2026-02-08 19:08:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 20,1
+2026-02-08 19:08:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-08 19:08:57 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2026-02-08 19:13:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 19:13:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeterV2 found: 1 Files.
+2026-02-08 19:13:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 19:13:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 19:13:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... tiny_attack.pcap 
+2026-02-08 19:13:58 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Desktop\Veer\bkl fyp\backend\cicflowmeter\runtime\5e2d7652-be88-42ab-9048-58872440a28c\tiny_attack.pcap
+2026-02-08 19:13:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2026-02-08 19:13:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 70
+2026-02-08 19:13:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 70
+2026-02-08 19:13:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2026-02-08 19:13:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 0 seconds
+2026-02-08 19:13:58 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2026-02-08 19:13:58 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2026-02-08 19:13:58 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,0
+2026-02-08 19:13:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 20,1
+2026-02-08 19:13:59 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-08 19:13:59 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
+2026-02-08 19:15:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 19:15:25 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    CICFlowMeterV2 found: 1 Files.
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Working on... CIC-DDoS-2019-WebDDoS.pcap 
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 3 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 9 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 9 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 9 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 13 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 14 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 14 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 14 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 14 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 14 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 14 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 15 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 16 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 16 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 18 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 18 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 18 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 18 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 21 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 21 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 21 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 21 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 24 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 24 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 26 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 26 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 27 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 27 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 28 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 31 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 31 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 31 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 31 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 31 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 33 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 33 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 34 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 34 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 35 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 37 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 37 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 37 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 40 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 40 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 40 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 40 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 40 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 41 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 42 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 42 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 45 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 45 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 45 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 45 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 46 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 48 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 48 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 48 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 51 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 52 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 52 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 52 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 52 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 53 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 53 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 53 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 54 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 54 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 55 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 57 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 57 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 57 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 57 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 60 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 60 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 60 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 61 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 61 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 61 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 62 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 62 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 64 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 64 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 67 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 67 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 67 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 67 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 70 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 70 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 70 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 71 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 72 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 72 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 73 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 73 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 73 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 77 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 77 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 77 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 77 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 77 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 79 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 79 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 79 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 81 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 81 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 82 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 82 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 87 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 88 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 88 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 88 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 88 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 88 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 88 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 88 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 88 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 89 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 89 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 89 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 90 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 90 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 92 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 92 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 92 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 93 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 93 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 94 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 97 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 97 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 97 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 97 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 98 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 101 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 101 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 101 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 101 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 102 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 102 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 104 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 104 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 108 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 108 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 108 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 108 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 108 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 108 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 110 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 110 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 112 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 112 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 112 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 114 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 114 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 114 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 115 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 115 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 117 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 117 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 117 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 117 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 118 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 118 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 120 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 120 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 122 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 122 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 122 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 123 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 123 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 126 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 126 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 128 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 128 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 128 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 129 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 129 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 129 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 129 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 129 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 130 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 131 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 132 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 134 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 134 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 135 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 135 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 136 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 136 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 138 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 138 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 142 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 142 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 142 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 142 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 142 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 143 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 143 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 143 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 143 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 143 flow
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-02-08 19:15:26 WARN  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow received 2 FIN packets
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 146 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 146 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 146 flow
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Desktop\Veer\bkl fyp\backend\cicflowmeter\runtime\1de23dc7-351e-433b-a7a3-940060629b6b\CIC-DDoS-2019-WebDDoS.pcap
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    Done! in 0 seconds
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Total packets: 3104
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Valid packets: 3104
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    	 Ignored packets:0 0 
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    PCAP duration 1541 seconds
+2026-02-08 19:15:26 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+2026-02-08 19:15:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow: 
+2026-02-08 19:15:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow finishedFlows -> 0,216
+2026-02-08 19:15:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    dumpLabeledFlow total(include current) -> 0,362
+2026-02-08 19:15:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 362
+2026-02-08 19:15:27 INFO  cic.cs.unb.ca.ifm.CICFlowMeter    ----------------------------------------------------------------------------
+
