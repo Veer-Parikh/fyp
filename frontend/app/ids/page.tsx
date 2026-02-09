@@ -2,77 +2,157 @@
 
 import { useState } from "react"
 import { Loader } from "@/components/loader"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Upload, Brain, Play } from "lucide-react"
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+} from "@/components/ui/card"
+import { Play, Brain, ShieldAlert, Sparkles, FileDown } from "lucide-react"
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  Tooltip,
+  ResponsiveContainer,
+  Cell,
+} from "recharts"
+import jsPDF from "jspdf"
 
-type PredictionResult = {
-  prediction?: number
+type FlowPrediction = {
+  prediction?: any
   label?: string
   confidence?: number
+  error?: string
 }
 
 export default function IDSPage() {
-  const [features, setFeatures] = useState<number[]>([])
+  const [pcapFile, setPcapFile] = useState<File | null>(null)
   const [loading, setLoading] = useState(false)
-  const [result, setResult] = useState<PredictionResult | null>(null)
+  const [results, setResults] = useState<FlowPrediction[]>([])
   const [error, setError] = useState<string | null>(null)
+  const [flowsCount, setFlowsCount] = useState<number>(0)
+  const [explainChart, setExplainChart] = useState<any[]>([])
 
-  /* ---------------- CSV UPLOAD ---------------- */
-  const handleCSVUpload = async (e: any) => {
+
+  const [xai, setXai] = useState<any>(null)
+  const [geminiAnalysis, setGeminiAnalysis] = useState<any>(null)
+  const [severity, setSeverity] = useState<number>(0)
+
+  const CONFIDENCE_THRESHOLD = 0.0
+
+  /* ---------------- FILE UPLOAD ---------------- */
+  const handlePCAPUpload = (e: any) => {
     const file = e.target.files[0]
     if (!file) return
 
-    try {
-      const text = await file.text()
-      const rows = text.trim().split("\n")
-
-      if (rows.length === 0) {
-        setError("CSV is empty")
-        return
-      }
-
-      const values = rows[0].split(",")
-
-      const nums = values
-        .map((v: string) => Number(v.trim()))
-        .filter((v: number) => !isNaN(v))
-
-      if (nums.length !== 52) {
-        setError(`CSV must contain exactly 52 features. Found ${nums.length}`)
-        return
-      }
-
-      setFeatures(nums)
-      setError(null)
-      setResult(null)
-    } catch {
-      setError("Failed to read CSV")
+    if (!file.name.endsWith(".pcap")) {
+      setError("Upload valid .pcap")
+      return
     }
-  }
 
-  /* ---------------- RUN IDS ---------------- */
+    setPcapFile(file)
+    setError(null)
+    setResults([])
+    setGeminiAnalysis("")
+    setXai(null)
+  }
+  /* ---------------- GEMINI ---------------- */
+  /* ---------------- GEMINI SOC (FASTAPI BACKEND) ---------------- */
+const runGeminiAnalysis = async (xaiData: any, predictions: any[]) => {
+  try {
+    const res = await fetch("http://localhost:9000/ids/gemini-soc", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        xai: xaiData,
+        predictions: predictions,
+      }),
+    })
+
+    if (!res.ok) throw new Error("Gemini SOC failed")
+
+    const data = await res.json()
+
+    /*
+      Expected backend response:
+      {
+        soc_analysis: {...},
+        threat_score: 87,
+        severity: "Critical"
+      }
+    */
+
+    // pretty formatted SOC analysis
+    setGeminiAnalysis(data.soc_analysis)
+
+    // 🔥 REAL threat score from LLM (not fake 25/50/75)
+    setSeverity(data.threat_score || 0)
+
+  } catch (err) {
+    console.error(err)
+    setGeminiAnalysis("Gemini SOC analysis failed")
+    setSeverity(0)
+  }
+}
+
+
+  /* ---------------- IDS RUN ---------------- */
   const runIDS = async () => {
-    if (features.length !== 52) {
-      setError("Upload valid CSV with 52 features first")
+    if (!pcapFile) {
+      setError("Upload PCAP first")
       return
     }
 
     setLoading(true)
     setError(null)
-    setResult(null)
+    setResults([])
+    setGeminiAnalysis("")
+    setXai(null)
 
     try {
-      const res = await fetch("https://ids-dnn.onrender.com/predict", {
+      const formData = new FormData()
+      formData.append("file", pcapFile)
+
+      const res = await fetch("http://localhost:9000/ids/pcap", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ features }),
+        body: formData,
       })
 
       const data = await res.json()
+      console.log("FULL API RESPONSE:", data)
+      if (!res.ok) throw new Error(data?.detail || "IDS failed")
 
-      if (!res.ok) throw new Error(data?.error || "Prediction failed")
+      setFlowsCount(data.flows_processed || 0)
+      setResults(data.predictions || [])
 
-      setResult(data)
+      // generic XAI
+      if (data.xai) {
+        setXai(data.xai)
+        await runGeminiAnalysis(data.xai, data.predictions || [])
+      }
+      // 🔥 find first prediction that has XAI
+      let explainData = null
+
+      for (const p of data.predictions || []) {
+        if (p?.xai?.data && Array.isArray(p.xai.data)) {
+          explainData = p.xai.data
+          break
+        }
+      }
+
+      console.log("Explain raw:", explainData)
+
+      if (explainData) {
+        setExplainChart(explainData)
+        console.log("✅ SHAP graph loaded:", explainData.length)
+      } else {
+        console.log("❌ No SHAP data found in any flow")
+      }
+
+
     } catch (err: any) {
       setError(err.message || "Server error")
     } finally {
@@ -80,144 +160,617 @@ export default function IDSPage() {
     }
   }
 
+  /* ---------------- PDF REPORT ---------------- */
+  const downloadPDF = () => {
+    const doc = new jsPDF()
+    doc.setFontSize(18)
+    doc.text("Network Intrusion Detection Report", 20, 20)
+
+    doc.setFontSize(12)
+    doc.text(`Flows analyzed: ${flowsCount}`, 20, 40)
+    doc.text(`High risk flows: ${results.length}`, 20, 50)
+
+    if (geminiAnalysis) {
+      doc.text("AI SOC Analysis:", 20, 70)
+      doc.setFontSize(10)
+      doc.text(doc.splitTextToSize(geminiAnalysis, 170), 20, 80)
+    }
+
+    doc.save("IDS_Report.pdf")
+  }
+
+  /* ---------------- SHAP GRAPH DATA ---------------- */
+  let shapData: any[] = []
+  if (xai?.feature_importance) {
+    shapData = Object.entries(xai.feature_importance).map(([k, v]: any) => ({
+      name: k,
+      value: Number(v),
+    }))
+  }
+
   return (
     <main className="min-h-screen bg-background">
-
-      {/* GRID BACKGROUND */}
-      <div className="fixed inset-0 opacity-5 pointer-events-none">
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage:
-              "linear-gradient(0deg, rgba(0,255,150,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(0,255,150,0.1) 1px, transparent 1px)",
-            backgroundSize: "50px 50px",
-          }}
-        ></div>
-      </div>
-
-      <section className="relative max-w-7xl mx-auto px-6 py-12">
+      <section className="max-w-7xl mx-auto px-6 py-12">
 
         {/* HEADER */}
-        <div className="mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold font-mono mb-4">
-            <span className="cyber-gradient-text">Intrusion</span>
-            <br />
-            Detection System
+        <div className="mb-10">
+          <h1 className="text-4xl font-bold font-mono">
+            AI Intrusion Detection Dashboard
           </h1>
-          <p className="text-muted-foreground">
-            Upload CICIDS feature CSV and detect real-time network attacks using deep learning
-          </p>
         </div>
 
-        {/* MAIN CARD */}
-        <Card className="mb-12 bg-card/50 border-accent/20 glow-border">
+        {/* UPLOAD */}
+        <Card className="mb-10">
           <CardHeader>
-            <CardTitle className="font-mono">IDS Configuration</CardTitle>
-            <CardDescription>Upload CICIDS feature CSV (52 features)</CardDescription>
+            <CardTitle>Upload PCAP</CardTitle>
+            <CardDescription>Run full IDS pipeline</CardDescription>
           </CardHeader>
 
-          <CardContent className="space-y-6">
+          <CardContent className="space-y-4">
+            <input type="file" accept=".pcap" onChange={handlePCAPUpload} />
 
-            {/* CSV UPLOAD */}
-            <div className="space-y-2">
-              <label className="block text-sm font-mono text-foreground">
-                Upload Feature CSV
-              </label>
+            {error && <p className="text-red-400">{error}</p>}
 
-              <input
-                type="file"
-                accept=".csv"
-                onChange={handleCSVUpload}
-                disabled={loading}
-                className="w-full px-4 py-3 rounded-lg bg-background/50 border border-border/50 focus:border-accent/50 text-foreground focus:outline-none transition-colors font-mono text-sm"
-              />
-            </div>
-
-            {/* ERROR */}
-            {error && (
-              <div className="p-4 rounded-lg bg-red-400/10 border border-red-400/30">
-                <p className="text-sm text-red-400 font-mono">{error}</p>
-              </div>
-            )}
-
-            {/* RUN BUTTON */}
             <button
               onClick={runIDS}
-              disabled={loading || features.length !== 52}
-              className="w-full cyber-button flex items-center justify-center gap-2 px-6 py-3 bg-accent/20 hover:bg-accent/40 text-accent border border-accent/50 rounded-lg font-mono font-semibold transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+              disabled={loading || !pcapFile}
+              className="w-full bg-accent/20 p-3 rounded-lg font-mono"
             >
-              <Play className="w-4 h-4" />
-              {loading ? "Analyzing Traffic..." : "Run IDS Detection"}
+              <Play className="inline mr-2" />
+              {loading ? "Analyzing..." : "Run IDS"}
             </button>
           </CardContent>
         </Card>
 
         {/* LOADER */}
         {loading && (
-          <div className="mb-12">
-            <Card className="bg-card/50 border-accent/20">
-              <CardContent className="py-12">
-                <Loader />
-              </CardContent>
-            </Card>
-          </div>
+          <Card className="mb-10">
+            <CardContent className="py-12">
+              <Loader />
+              <p className="text-center mt-4">Running full pipeline...</p>
+            </CardContent>
+          </Card>
         )}
 
-        {/* RESULT */}
-        {result && !loading && (
-          <div className="space-y-10 mt-10">
-            <h2 className="text-3xl font-bold font-mono">Detection Result</h2>
+        {/* 🔥 SEVERITY METER */}
+        {(severity > 0 || results.length > 0) && (
+          <Card className="mb-10 border-red-500/30 bg-gradient-to-br from-black to-red-950/40">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-3 text-red-400 text-2xl font-mono">
+                <ShieldAlert size={28} />
+                LIVE THREAT LEVEL
+              </CardTitle>
+              <CardDescription>
+                Real-time AI intrusion risk analysis
+              </CardDescription>
+            </CardHeader>
 
-            <Card className="border-accent/40 bg-card/50">
-              <CardHeader>
-                <CardTitle className="font-mono flex items-center gap-2">
-                  <Brain className="text-accent" />
-                  AI Prediction
-                </CardTitle>
-                <CardDescription>Deep learning intrusion detection output</CardDescription>
-              </CardHeader>
+            <CardContent>
+              {/* meter */}
+              <div className="w-full bg-black/40 rounded-full h-10 overflow-hidden border border-red-500/20">
+                <div
+                  className="h-10 bg-gradient-to-r from-green-400 via-yellow-400 to-red-600 transition-all duration-[2000ms] ease-out"
+                  style={{ width: `${severity}%` }}
+                />
+              </div>
 
-              <CardContent className="space-y-4 font-mono">
-                <p className="text-lg">
-                  Prediction:{" "}
-                  <span
-                    className={
-                      result.label === "Attack"
-                        ? "text-red-400 font-bold"
-                        : "text-green-400 font-bold"
-                    }
-                  >
-                    {result.label || result.prediction}
-                  </span>
-                </p>
+              <div className="flex justify-between mt-3 font-mono text-sm">
+                <span className="text-green-400">LOW</span>
+                <span className="text-yellow-400">MEDIUM</span>
+                <span className="text-red-400">CRITICAL</span>
+              </div>
 
-                {result.confidence !== undefined && (
-                  <p className="text-sm text-muted-foreground">
-                    Confidence: {(result.confidence * 100).toFixed(4)}%
-                  </p>
-                )}
-              </CardContent>
-            </Card>
-          </div>
-        )}
-
-        {/* PLACEHOLDER */}
-        {!loading && !result && !error && (
-          <Card className="bg-card/50 border-border/50">
-            <CardContent className="py-12 text-center">
-              <p className="text-muted-foreground font-mono">
-                Upload a CICIDS CSV and click "Run IDS Detection" to analyze network traffic
+              <p className="mt-4 text-3xl font-bold font-mono text-red-400">
+                {severity}% Threat Score
               </p>
             </CardContent>
           </Card>
         )}
 
+
+        {/* 🧠 XAI */}
+        {/* ================= XAI BLOCK ================= */}
+        {xai && (
+          <Card className="mb-10 border-purple-500/30 bg-gradient-to-br from-black to-purple-950/40">
+            <CardHeader>
+              <CardTitle className="text-xl font-mono flex gap-2">
+                <Brain className="text-purple-400" />
+                Explainable AI Analysis
+              </CardTitle>
+              <CardDescription>
+                Why the model flagged this traffic
+              </CardDescription>
+            </CardHeader>
+
+            <CardContent className="grid md:grid-cols-2 gap-6">
+              
+              {/* left */}
+              <div className="bg-black/40 p-4 rounded-xl border border-purple-500/20">
+                <p className="text-purple-300 font-mono mb-2">Raw XAI Output</p>
+                <pre className="text-xs whitespace-pre-wrap text-muted-foreground">
+                  {JSON.stringify(xai, null, 2)}
+                </pre>
+              </div>
+
+              {/* right */}
+              <div className="bg-black/40 p-4 rounded-xl border border-purple-500/20">
+                <p className="text-purple-300 font-mono mb-2">
+                  AI Explanation Summary
+                </p>
+                <p className="text-sm text-muted-foreground font-mono">
+                  This section highlights the most influential network flow
+                  features responsible for triggering intrusion detection.
+                  High packet rate, abnormal flow duration, or suspicious
+                  port usage typically indicates attack behavior.
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        )}
+
+
+        {/* 🧠 SHAP GRAPH */}
+        {/* ================= ATTACK GRAPH ================= */}
+        {/* {results.length > 0 && (
+          <Card className="mb-10 border-cyan-500/30 bg-gradient-to-br from-black to-cyan-950/30">
+            <CardHeader>
+              <CardTitle className="text-xl font-mono flex gap-2">
+                📊 Traffic Classification Distribution
+              </CardTitle>
+              <CardDescription>
+                Normal vs Suspicious traffic breakdown
+              </CardDescription>
+            </CardHeader>
+
+            <CardContent style={{ height: 320 }}>
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart
+                  data={[
+                    {
+                      name: "Normal",
+                      value: results.filter(r => r.label === "Normal").length,
+                    },
+                    {
+                      name: "Attack",
+                      value: results.filter(r => r.label !== "Normal").length,
+                    },
+                  ]}
+                >
+                  <XAxis dataKey="name" />
+                  <YAxis />
+                  <Tooltip />
+                  <Bar dataKey="value" />
+                </BarChart>
+              </ResponsiveContainer>
+            </CardContent>
+          </Card>
+        )} */}
+        {/* ================= SHAP FEATURE IMPACT ================= */}
+        {explainChart.length > 0 && (
+          <Card className="mb-10 border-cyan-500/30 bg-gradient-to-br from-black to-cyan-950/30">
+            <CardHeader>
+              <CardTitle className="text-xl font-mono text-cyan-400">
+                🔬 Feature Impact Analysis (SHAP)
+              </CardTitle>
+              <CardDescription>
+                Features influencing intrusion detection decision
+              </CardDescription>
+            </CardHeader>
+
+            <CardContent style={{ height: 420 }}>
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart
+                  data={[...explainChart].sort((a,b)=>Math.abs(b.impact)-Math.abs(a.impact))}
+                  layout="vertical"
+                >
+                  <XAxis
+                    type="number"
+                    tick={{ fill: "#00ffe1" }}
+                    axisLine={{ stroke: "#00ffe1" }}
+                  />
+                  <YAxis
+                    dataKey="feature"
+                    type="category"
+                    width={220}
+                    tick={{ fill: "#9be7ff", fontSize: 12 }}
+                  />
+                  <Tooltip />
+
+                  <Bar dataKey="impact">
+                    {explainChart.map((entry, index) => (
+                      <Cell
+                        key={`cell-${index}`}
+                        fill={entry.impact > 0 ? "#00ff9c" : "#ff4d6d"}
+                      />
+                    ))}
+                  </Bar>
+                </BarChart>
+              </ResponsiveContainer>
+            </CardContent>
+          </Card>
+        )}
+
+
+
+        {/* ================= LLM SOC ANALYSIS ================= */}
+        {/* {geminiAnalysis && (
+          <Card className="mb-10 border-emerald-500/30 bg-gradient-to-br from-black to-emerald-950/30">
+            <CardHeader>
+              <CardTitle className="flex gap-2 text-emerald-400 text-xl font-mono">
+                <Sparkles />
+                AI Security Operations Report
+              </CardTitle>
+              <CardDescription>
+                Generated by Gemini SOC Analyst
+              </CardDescription>
+            </CardHeader>
+
+            <CardContent className="space-y-6">
+
+              <div className="bg-black/40 border border-emerald-500/20 rounded-xl p-5">
+                <pre className="whitespace-pre-wrap text-sm font-mono text-muted-foreground">
+                  {geminiAnalysis}
+                </pre>
+              </div>
+
+              <button
+                onClick={downloadPDF}
+                className="flex items-center gap-2 bg-emerald-500/20 hover:bg-emerald-500/40 px-6 py-3 rounded-lg font-mono"
+              >
+                <FileDown size={16} />
+                Download Full Incident Report
+              </button>
+            </CardContent>
+          </Card>
+        )} */}
+        {/* ================= AI SOC REPORT ================= */}
+        {geminiAnalysis && (
+          <Card className="mb-10 border-emerald-500/30 bg-gradient-to-br from-black to-emerald-950/30 shadow-xl">
+            <CardHeader>
+              <CardTitle className="flex gap-2 text-emerald-400 text-2xl font-mono">
+                <Sparkles />
+                AI Security Operations Report
+              </CardTitle>
+              <CardDescription>
+                Real-time AI SOC threat intelligence
+              </CardDescription>
+            </CardHeader>
+
+            <CardContent className="space-y-6 font-mono">
+
+              {/* ATTACK TYPE */}
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-black/40 p-4 rounded-xl border border-emerald-500/20">
+                  <p className="text-emerald-300 text-sm">Attack Type</p>
+                  <p className="text-lg font-bold text-emerald-400">
+                    {geminiAnalysis.attack_type}
+                  </p>
+                </div>
+
+                <div className="bg-black/40 p-4 rounded-xl border border-emerald-500/20">
+                  <p className="text-emerald-300 text-sm">Severity</p>
+                  <p className="text-lg font-bold text-red-400">
+                    {geminiAnalysis.severity}
+                  </p>
+                </div>
+
+                <div className="bg-black/40 p-4 rounded-xl border border-emerald-500/20">
+                  <p className="text-emerald-300 text-sm">Confidence</p>
+                  <p className="text-lg font-bold text-cyan-400">
+                    {geminiAnalysis.confidence}%
+                  </p>
+                </div>
+              </div>
+
+              {/* WHY FLAGGED */}
+              <div className="bg-black/40 border border-emerald-500/20 rounded-xl p-5">
+                <p className="text-emerald-300 mb-2">Why IDS flagged this</p>
+                <p className="text-sm text-muted-foreground">
+                  {geminiAnalysis.why_flagged}
+                </p>
+              </div>
+
+              {/* IMPACT */}
+              <div className="bg-black/40 border border-emerald-500/20 rounded-xl p-5">
+                <p className="text-emerald-300 mb-2">Real World Impact</p>
+                <p className="text-sm text-muted-foreground">
+                  {geminiAnalysis.real_world_impact}
+                </p>
+              </div>
+
+              {/* MITIGATION */}
+              <div className="bg-black/40 border border-emerald-500/20 rounded-xl p-5">
+                <p className="text-emerald-300 mb-3">Recommended Mitigation</p>
+
+                <ul className="space-y-2 text-sm">
+                  {geminiAnalysis.mitigation_steps?.map((m: string, i: number) => (
+                    <li key={i} className="bg-black/30 p-3 rounded border border-emerald-500/10">
+                      {m}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* DOWNLOAD */}
+              <button
+                onClick={downloadPDF}
+                className="flex items-center gap-2 bg-emerald-500/20 hover:bg-emerald-500/40 px-6 py-3 rounded-lg font-mono"
+              >
+                <FileDown size={16} />
+                Download Full Incident Report
+              </button>
+
+            </CardContent>
+          </Card>
+        )}
+
+
+
+        {/* FLOWS */}
+        {!loading && results.length > 0 && (
+          <div className="space-y-6">
+            <h2 className="text-2xl font-bold font-mono">
+              High Confidence Flows
+            </h2>
+
+            {results
+              .filter((r) => (r.confidence || 0) >= CONFIDENCE_THRESHOLD)
+              .slice(0, 25)
+              .map((r, i) => (
+                <Card key={i}>
+                  <CardContent className="font-mono text-sm py-4">
+                    <p>
+                      Prediction:
+                      <span
+                        className={
+                          r.label === "Attack"
+                            ? "text-red-400 ml-2"
+                            : "text-green-400 ml-2"
+                        }
+                      >
+                        {r.label}
+                      </span>
+                    </p>
+                    <p>Confidence: {(r.confidence! * 100).toFixed(2)}%</p>
+                  </CardContent>
+                </Card>
+              ))}
+          </div>
+        )}
       </section>
     </main>
   )
 }
 
 
+// "use client"
+
+// import { useState } from "react"
+// import { Loader } from "@/components/loader"
+// import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+// import { Upload, Brain, Play } from "lucide-react"
+
+// type FlowPrediction = {
+// prediction?: any
+// label?: string
+// confidence?: number
+// error?: string
+// }
+
+// export default function IDSPage() {
+// const [pcapFile, setPcapFile] = useState<File | null>(null)
+// const [loading, setLoading] = useState(false)
+// const [results, setResults] = useState<FlowPrediction[]>([])
+// const [error, setError] = useState<string | null>(null)
+// const [flowsCount, setFlowsCount] = useState<number>(0)
+
+// /* ---------------- PCAP UPLOAD ---------------- */
+// const handlePCAPUpload = (e: any) => {
+// const file = e.target.files[0]
+// if (!file) return
+
+
+// if (!file.name.endsWith(".pcap")) {
+//   setError("Please upload a valid .pcap file")
+//   return
+// }
+
+// setPcapFile(file)
+// setError(null)
+// setResults([])
+
+
+// }
+
+// /* ---------------- RUN IDS PIPELINE ---------------- */
+// const runIDS = async () => {
+// if (!pcapFile) {
+// setError("Upload a PCAP file first")
+// return
+// }
+
+
+// setLoading(true)
+// setError(null)
+// setResults([])
+
+// try {
+//   const formData = new FormData()
+//   formData.append("file", pcapFile)
+
+//   // 🔥 change to your backend URL
+//   const res = await fetch("http://localhost:9000/ids/pcap", {
+//     method: "POST",
+//     body: formData,
+//   })
+
+//   const data = await res.json()
+
+//   if (!res.ok) throw new Error(data?.detail || "IDS pipeline failed")
+
+//   setFlowsCount(data.flows_processed || 0)
+//   setResults(data.predictions || [])
+
+// } catch (err: any) {
+//   setError(err.message || "Server error")
+// } finally {
+//   setLoading(false)
+// }
+
+
+// }
+
+// return ( <main className="min-h-screen bg-background">
+
+
+//   {/* GRID BACKGROUND */}
+//   <div className="fixed inset-0 opacity-5 pointer-events-none">
+//     <div
+//       className="absolute inset-0"
+//       style={{
+//         backgroundImage:
+//           "linear-gradient(0deg, rgba(0,255,150,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(0,255,150,0.1) 1px, transparent 1px)",
+//         backgroundSize: "50px 50px",
+//       }}
+//     ></div>
+//   </div>
+
+//   <section className="relative max-w-7xl mx-auto px-6 py-12">
+
+//     {/* HEADER */}
+//     <div className="mb-12">
+//       <h1 className="text-4xl md:text-5xl font-bold font-mono mb-4">
+//         <span className="cyber-gradient-text">PCAP</span>
+//         <br />
+//         Intrusion Detection
+//       </h1>
+//       <p className="text-muted-foreground">
+//         Upload PCAP file → CICFlowMeter → AI model → detect network attacks
+//       </p>
+//     </div>
+
+//     {/* MAIN CARD */}
+//     <Card className="mb-12 bg-card/50 border-accent/20 glow-border">
+//       <CardHeader>
+//         <CardTitle className="font-mono">IDS Pipeline</CardTitle>
+//         <CardDescription>Upload PCAP network capture file</CardDescription>
+//       </CardHeader>
+
+//       <CardContent className="space-y-6">
+
+//         {/* PCAP UPLOAD */}
+//         <div className="space-y-2">
+//           <label className="block text-sm font-mono text-foreground">
+//             Upload PCAP File
+//           </label>
+
+//           <input
+//             type="file"
+//             accept=".pcap"
+//             onChange={handlePCAPUpload}
+//             disabled={loading}
+//             className="w-full px-4 py-3 rounded-lg bg-background/50 border border-border/50 focus:border-accent/50 text-foreground focus:outline-none transition-colors font-mono text-sm"
+//           />
+//         </div>
+
+//         {/* ERROR */}
+//         {error && (
+//           <div className="p-4 rounded-lg bg-red-400/10 border border-red-400/30">
+//             <p className="text-sm text-red-400 font-mono">{error}</p>
+//           </div>
+//         )}
+
+//         {/* RUN BUTTON */}
+//         <button
+//           onClick={runIDS}
+//           disabled={loading || !pcapFile}
+//           className="w-full cyber-button flex items-center justify-center gap-2 px-6 py-3 bg-accent/20 hover:bg-accent/40 text-accent border border-accent/50 rounded-lg font-mono font-semibold transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+//         >
+//           <Play className="w-4 h-4" />
+//           {loading ? "Analyzing Network Traffic..." : "Run IDS Pipeline"}
+//         </button>
+//       </CardContent>
+//     </Card>
+
+//     {/* LOADER */}
+//     {loading && (
+//       <div className="mb-12">
+//         <Card className="bg-card/50 border-accent/20">
+//           <CardContent className="py-12">
+//             <Loader />
+//             <p className="text-center font-mono text-sm mt-4 text-muted-foreground">
+//               Running CICFlowMeter + AI model... this may take 30–90 sec
+//             </p>
+//           </CardContent>
+//         </Card>
+//       </div>
+//     )}
+
+//     {/* RESULTS */}
+//     {!loading && results.length > 0 && (
+//       <div className="space-y-10 mt-10">
+//         <h2 className="text-3xl font-bold font-mono">
+//           IDS Results ({flowsCount} flows analyzed)
+//         </h2>
+
+//         {results.slice(0, 20).map((r, i) => (
+//           <Card key={i} className="border-accent/40 bg-card/50">
+//             <CardHeader>
+//               <CardTitle className="font-mono flex items-center gap-2">
+//                 <Brain className="text-accent" />
+//                 Flow #{i + 1}
+//               </CardTitle>
+//             </CardHeader>
+
+//             <CardContent className="space-y-2 font-mono text-sm">
+//               {r.error ? (
+//                 <p className="text-red-400">{r.error}</p>
+//               ) : (
+//                 <>
+//                   <p>
+//                     Prediction:{" "}
+//                     <span
+//                       className={
+//                         r.label === "Attack"
+//                           ? "text-red-400 font-bold"
+//                           : "text-green-400 font-bold"
+//                       }
+//                     >
+//                       {r.label || r.prediction}
+//                     </span>
+//                   </p>
+
+//                   {r.confidence !== undefined && (
+//                     <p className="text-muted-foreground">
+//                       Confidence: {(r.confidence * 100).toFixed(3)}%
+//                     </p>
+//                   )}
+//                 </>
+//               )}
+//             </CardContent>
+//           </Card>
+//         ))}
+//       </div>
+//     )}
+
+//     {/* PLACEHOLDER */}
+//     {!loading && results.length === 0 && !error && (
+//       <Card className="bg-card/50 border-border/50">
+//         <CardContent className="py-12 text-center">
+//           <p className="text-muted-foreground font-mono">
+//             Upload a PCAP file and click "Run IDS Pipeline" to detect attacks
+//           </p>
+//         </CardContent>
+//       </Card>
+//     )}
+
+//   </section>
+// </main>
+
+
+// )
+// }
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // "use client"
 
