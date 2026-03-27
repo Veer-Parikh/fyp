@@ -1,1 +1,5 @@
 .env
+*.pcap
+*.log
+cicflowmeter/logs/
+cicflowmeter/CICFlowMeter-4.0/bin/logs/
