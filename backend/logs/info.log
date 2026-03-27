@@ -2219,3 +2219,684 @@
  TOTAL FLOWS GENERATED: 1
 2026-02-09 15:29:20 - ----------------------------------------------------------------------------
 
+2026-02-11 14:32:44 - 
+2026-02-11 14:32:44 - CICFlowMeterV2 found: 1 Files.
+2026-02-11 14:32:45 - 
+2026-02-11 14:32:45 - 
+2026-02-11 14:32:45 - Working on... tiny_attack.pcap 
+2026-02-11 14:32:45 - Done! in 0 seconds
+2026-02-11 14:32:45 - 	 Total packets: 70
+2026-02-11 14:32:45 - 	 Valid packets: 70
+2026-02-11 14:32:45 - 	 Ignored packets:0 0 
+2026-02-11 14:32:45 - PCAP duration 0 seconds
+2026-02-11 14:32:45 - ----------------------------------------------------------------------------
+2026-02-11 14:32:45 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-11 14:32:45 - ----------------------------------------------------------------------------
+
+2026-02-11 14:36:45 - 
+2026-02-11 14:36:45 - CICFlowMeterV2 found: 1 Files.
+2026-02-11 14:36:45 - 
+2026-02-11 14:36:45 - 
+2026-02-11 14:36:45 - Working on... tiny_attack.pcap 
+2026-02-11 14:36:46 - Done! in 0 seconds
+2026-02-11 14:36:46 - 	 Total packets: 70
+2026-02-11 14:36:46 - 	 Valid packets: 70
+2026-02-11 14:36:46 - 	 Ignored packets:0 0 
+2026-02-11 14:36:46 - PCAP duration 0 seconds
+2026-02-11 14:36:46 - ----------------------------------------------------------------------------
+2026-02-11 14:36:46 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-11 14:36:46 - ----------------------------------------------------------------------------
+
+2026-02-11 15:09:30 - 
+2026-02-11 15:09:30 - CICFlowMeterV2 found: 1 Files.
+2026-02-11 15:09:31 - 
+2026-02-11 15:09:31 - 
+2026-02-11 15:09:31 - Working on... tiny_attack.pcap 
+2026-02-11 15:09:31 - Done! in 0 seconds
+2026-02-11 15:09:31 - 	 Total packets: 70
+2026-02-11 15:09:31 - 	 Valid packets: 70
+2026-02-11 15:09:31 - 	 Ignored packets:0 0 
+2026-02-11 15:09:31 - PCAP duration 0 seconds
+2026-02-11 15:09:31 - ----------------------------------------------------------------------------
+2026-02-11 15:09:31 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-11 15:09:31 - ----------------------------------------------------------------------------
+
+2026-02-11 15:14:57 - 
+2026-02-11 15:14:57 - CICFlowMeterV2 found: 1 Files.
+2026-02-11 15:14:57 - 
+2026-02-11 15:14:57 - 
+2026-02-11 15:14:57 - Working on... tiny_attack.pcap 
+2026-02-11 15:14:58 - Done! in 0 seconds
+2026-02-11 15:14:58 - 	 Total packets: 70
+2026-02-11 15:14:58 - 	 Valid packets: 70
+2026-02-11 15:14:58 - 	 Ignored packets:0 0 
+2026-02-11 15:14:58 - PCAP duration 0 seconds
+2026-02-11 15:14:58 - ----------------------------------------------------------------------------
+2026-02-11 15:14:58 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-11 15:14:58 - ----------------------------------------------------------------------------
+
+2026-02-13 11:30:11 - 
+2026-02-13 11:30:11 - CICFlowMeterV2 found: 1 Files.
+2026-02-13 11:30:12 - 
+2026-02-13 11:30:12 - 
+2026-02-13 11:30:12 - Working on... tiny_attack.pcap 
+2026-02-13 11:30:13 - Done! in 0 seconds
+2026-02-13 11:30:13 - 	 Total packets: 70
+2026-02-13 11:30:13 - 	 Valid packets: 70
+2026-02-13 11:30:13 - 	 Ignored packets:0 0 
+2026-02-13 11:30:13 - PCAP duration 0 seconds
+2026-02-13 11:30:13 - ----------------------------------------------------------------------------
+2026-02-13 11:30:13 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-13 11:30:13 - ----------------------------------------------------------------------------
+
+2026-02-13 11:35:43 - 
+2026-02-13 11:35:43 - CICFlowMeterV2 found: 1 Files.
+2026-02-13 11:35:44 - 
+2026-02-13 11:35:44 - 
+2026-02-13 11:35:44 - Working on... tiny_attack.pcap 
+2026-02-13 11:35:44 - Done! in 0 seconds
+2026-02-13 11:35:44 - 	 Total packets: 70
+2026-02-13 11:35:44 - 	 Valid packets: 70
+2026-02-13 11:35:44 - 	 Ignored packets:0 0 
+2026-02-13 11:35:44 - PCAP duration 0 seconds
+2026-02-13 11:35:44 - ----------------------------------------------------------------------------
+2026-02-13 11:35:45 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-13 11:35:45 - ----------------------------------------------------------------------------
+
+2026-02-13 11:37:37 - 
+2026-02-13 11:37:37 - CICFlowMeterV2 found: 1 Files.
+2026-02-13 11:37:38 - 
+2026-02-13 11:37:38 - 
+2026-02-13 11:37:38 - Working on... tcp.pcap 
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:38 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:39 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:39 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:39 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:39 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:39 - Forward flow closed due to FIN Flag
+2026-02-13 11:37:39 - Done! in 0 seconds
+2026-02-13 11:37:39 - 	 Total packets: 4197
+2026-02-13 11:37:39 - 	 Valid packets: 2738
+2026-02-13 11:37:39 - 	 Ignored packets:1459 1459 
+2026-02-13 11:37:39 - PCAP duration 115 seconds
+2026-02-13 11:37:39 - ----------------------------------------------------------------------------
+2026-02-13 11:37:39 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 292
+2026-02-13 11:37:39 - ----------------------------------------------------------------------------
+
+2026-02-13 11:42:35 - 
+2026-02-13 11:42:35 - CICFlowMeterV2 found: 1 Files.
+2026-02-13 11:42:35 - 
+2026-02-13 11:42:35 - 
+2026-02-13 11:42:35 - Working on... tiny_attack.pcap 
+2026-02-13 11:42:36 - Done! in 0 seconds
+2026-02-13 11:42:36 - 	 Total packets: 70
+2026-02-13 11:42:36 - 	 Valid packets: 70
+2026-02-13 11:42:36 - 	 Ignored packets:0 0 
+2026-02-13 11:42:36 - PCAP duration 0 seconds
+2026-02-13 11:42:36 - ----------------------------------------------------------------------------
+2026-02-13 11:42:36 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-13 11:42:36 - ----------------------------------------------------------------------------
+
+2026-02-13 12:35:34 - 
+2026-02-13 12:35:34 - CICFlowMeterV2 found: 1 Files.
+2026-02-13 12:35:35 - 
+2026-02-13 12:35:35 - 
+2026-02-13 12:35:35 - Working on... tiny_attack.pcap 
+2026-02-13 12:35:35 - Done! in 0 seconds
+2026-02-13 12:35:35 - 	 Total packets: 70
+2026-02-13 12:35:35 - 	 Valid packets: 70
+2026-02-13 12:35:35 - 	 Ignored packets:0 0 
+2026-02-13 12:35:35 - PCAP duration 0 seconds
+2026-02-13 12:35:35 - ----------------------------------------------------------------------------
+2026-02-13 12:35:35 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-13 12:35:35 - ----------------------------------------------------------------------------
+
+2026-02-13 12:36:32 - 
+2026-02-13 12:36:32 - CICFlowMeterV2 found: 1 Files.
+2026-02-13 12:36:33 - 
+2026-02-13 12:36:33 - 
+2026-02-13 12:36:33 - Working on... tiny_attack.pcap 
+2026-02-13 12:36:33 - Done! in 0 seconds
+2026-02-13 12:36:33 - 	 Total packets: 70
+2026-02-13 12:36:33 - 	 Valid packets: 70
+2026-02-13 12:36:33 - 	 Ignored packets:0 0 
+2026-02-13 12:36:33 - PCAP duration 0 seconds
+2026-02-13 12:36:33 - ----------------------------------------------------------------------------
+2026-02-13 12:36:34 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-13 12:36:34 - ----------------------------------------------------------------------------
+
+2026-02-13 13:07:55 - 
+2026-02-13 13:07:55 - CICFlowMeterV2 found: 1 Files.
+2026-02-13 13:07:55 - 
+2026-02-13 13:07:55 - 
+2026-02-13 13:07:55 - Working on... tiny_attack.pcap 
+2026-02-13 13:07:56 - Done! in 0 seconds
+2026-02-13 13:07:56 - 	 Total packets: 70
+2026-02-13 13:07:56 - 	 Valid packets: 70
+2026-02-13 13:07:56 - 	 Ignored packets:0 0 
+2026-02-13 13:07:56 - PCAP duration 0 seconds
+2026-02-13 13:07:56 - ----------------------------------------------------------------------------
+2026-02-13 13:07:56 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-13 13:07:56 - ----------------------------------------------------------------------------
+
+2026-02-13 13:09:12 - 
+2026-02-13 13:09:12 - CICFlowMeterV2 found: 1 Files.
+2026-02-13 13:09:14 - 
+2026-02-13 13:09:14 - 
+2026-02-13 13:09:14 - Working on... tiny_attack.pcap 
+2026-02-13 13:09:14 - Done! in 0 seconds
+2026-02-13 13:09:14 - 	 Total packets: 70
+2026-02-13 13:09:14 - 	 Valid packets: 70
+2026-02-13 13:09:14 - 	 Ignored packets:0 0 
+2026-02-13 13:09:14 - PCAP duration 0 seconds
+2026-02-13 13:09:14 - ----------------------------------------------------------------------------
+2026-02-13 13:09:15 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-13 13:09:15 - ----------------------------------------------------------------------------
+
+2026-02-13 13:47:32 - 
+2026-02-13 13:47:32 - CICFlowMeterV2 found: 1 Files.
+2026-02-13 13:47:33 - 
+2026-02-13 13:47:33 - 
+2026-02-13 13:47:33 - Working on... tiny_attack.pcap 
+2026-02-13 13:47:33 - Done! in 0 seconds
+2026-02-13 13:47:33 - 	 Total packets: 70
+2026-02-13 13:47:33 - 	 Valid packets: 70
+2026-02-13 13:47:33 - 	 Ignored packets:0 0 
+2026-02-13 13:47:33 - PCAP duration 0 seconds
+2026-02-13 13:47:33 - ----------------------------------------------------------------------------
+2026-02-13 13:47:33 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-13 13:47:33 - ----------------------------------------------------------------------------
+
+2026-02-20 18:12:32 - 
+2026-02-20 18:12:32 - CICFlowMeterV2 found: 1 Files.
+2026-02-20 18:12:33 - 
+2026-02-20 18:12:33 - 
+2026-02-20 18:12:33 - Working on... tiny_attack.pcap 
+2026-02-20 18:12:34 - Done! in 0 seconds
+2026-02-20 18:12:34 - 	 Total packets: 70
+2026-02-20 18:12:34 - 	 Valid packets: 70
+2026-02-20 18:12:34 - 	 Ignored packets:0 0 
+2026-02-20 18:12:34 - PCAP duration 0 seconds
+2026-02-20 18:12:34 - ----------------------------------------------------------------------------
+2026-02-20 18:12:34 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-20 18:12:34 - ----------------------------------------------------------------------------
+
+2026-02-20 18:13:05 - 
+2026-02-20 18:13:05 - CICFlowMeterV2 found: 1 Files.
+2026-02-20 18:13:06 - 
+2026-02-20 18:13:06 - 
+2026-02-20 18:13:06 - Working on... CIC-DDoS-2019-WebDDoS.pcap 
+2026-02-20 18:13:06 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:06 - Forward flow received 2 FIN packets
+2026-02-20 18:13:06 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:06 - Forward flow received 2 FIN packets
+2026-02-20 18:13:06 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:06 - Forward flow received 2 FIN packets
+2026-02-20 18:13:06 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:06 - Forward flow received 2 FIN packets
+2026-02-20 18:13:06 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:06 - Forward flow received 2 FIN packets
+2026-02-20 18:13:06 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:06 - Forward flow received 2 FIN packets
+2026-02-20 18:13:06 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:06 - Forward flow received 2 FIN packets
+2026-02-20 18:13:06 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:06 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Forward flow closed due to FIN Flag
+2026-02-20 18:13:07 - Forward flow received 2 FIN packets
+2026-02-20 18:13:07 - Done! in 0 seconds
+2026-02-20 18:13:07 - 	 Total packets: 3104
+2026-02-20 18:13:07 - 	 Valid packets: 3104
+2026-02-20 18:13:07 - 	 Ignored packets:0 0 
+2026-02-20 18:13:07 - PCAP duration 1541 seconds
+2026-02-20 18:13:07 - ----------------------------------------------------------------------------
+2026-02-20 18:13:08 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 362
+2026-02-20 18:13:08 - ----------------------------------------------------------------------------
+
+2026-02-20 18:47:30 - 
+2026-02-20 18:47:30 - CICFlowMeterV2 found: 1 Files.
+2026-02-20 18:47:31 - 
+2026-02-20 18:47:31 - 
+2026-02-20 18:47:31 - Working on... benign.pcap 
+2026-02-20 18:47:32 - Forward flow closed due to FIN Flag
+2026-02-20 18:47:32 - Forward flow closed due to FIN Flag
+2026-02-20 18:47:32 - Forward flow closed due to FIN Flag
+2026-02-20 18:47:32 - Forward flow closed due to FIN Flag
+2026-02-20 18:47:32 - Forward flow closed due to FIN Flag
+2026-02-20 18:47:32 - Forward flow closed due to FIN Flag
+2026-02-20 18:47:32 - Done! in 0 seconds
+2026-02-20 18:47:32 - 	 Total packets: 523
+2026-02-20 18:47:32 - 	 Valid packets: 523
+2026-02-20 18:47:32 - 	 Ignored packets:0 0 
+2026-02-20 18:47:32 - PCAP duration 10 seconds
+2026-02-20 18:47:32 - ----------------------------------------------------------------------------
+2026-02-20 18:47:32 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 57
+2026-02-20 18:47:32 - ----------------------------------------------------------------------------
+
+2026-02-20 18:54:47 - 
+2026-02-20 18:54:47 - CICFlowMeterV2 found: 1 Files.
+2026-02-20 18:54:48 - 
+2026-02-20 18:54:48 - 
+2026-02-20 18:54:48 - Working on... tiny_attack.pcap 
+2026-02-20 18:54:48 - Done! in 0 seconds
+2026-02-20 18:54:48 - 	 Total packets: 70
+2026-02-20 18:54:48 - 	 Valid packets: 70
+2026-02-20 18:54:48 - 	 Ignored packets:0 0 
+2026-02-20 18:54:48 - PCAP duration 0 seconds
+2026-02-20 18:54:48 - ----------------------------------------------------------------------------
+2026-02-20 18:54:48 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-20 18:54:48 - ----------------------------------------------------------------------------
+
+2026-02-20 18:58:17 - 
+2026-02-20 18:58:17 - CICFlowMeterV2 found: 1 Files.
+2026-02-20 18:58:17 - 
+2026-02-20 18:58:17 - 
+2026-02-20 18:58:17 - Working on... tcp.pcap 
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Forward flow closed due to FIN Flag
+2026-02-20 18:58:18 - Done! in 1 seconds
+2026-02-20 18:58:18 - 	 Total packets: 4197
+2026-02-20 18:58:18 - 	 Valid packets: 2738
+2026-02-20 18:58:18 - 	 Ignored packets:1459 1459 
+2026-02-20 18:58:18 - PCAP duration 115 seconds
+2026-02-20 18:58:18 - ----------------------------------------------------------------------------
+2026-02-20 18:58:19 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 292
+2026-02-20 18:58:19 - ----------------------------------------------------------------------------
+
+2026-02-20 19:19:23 - 
+2026-02-20 19:19:23 - CICFlowMeterV2 found: 1 Files.
+2026-02-20 19:19:24 - 
+2026-02-20 19:19:24 - 
+2026-02-20 19:19:24 - Working on... normal_traffic.pcap 
+2026-02-20 19:19:24 - Done! in 0 seconds
+2026-02-20 19:19:24 - 	 Total packets: 115
+2026-02-20 19:19:24 - 	 Valid packets: 115
+2026-02-20 19:19:24 - 	 Ignored packets:0 0 
+2026-02-20 19:19:24 - PCAP duration 0 seconds
+2026-02-20 19:19:24 - ----------------------------------------------------------------------------
+2026-02-20 19:19:25 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 5
+2026-02-20 19:19:25 - ----------------------------------------------------------------------------
+
+2026-02-20 19:27:31 - 
+2026-02-20 19:27:31 - CICFlowMeterV2 found: 1 Files.
+2026-02-20 19:27:32 - 
+2026-02-20 19:27:32 - 
+2026-02-20 19:27:32 - Working on... clean_normal.pcap 
+2026-02-20 19:27:32 - Done! in 0 seconds
+2026-02-20 19:27:32 - 	 Total packets: 55
+2026-02-20 19:27:32 - 	 Valid packets: 55
+2026-02-20 19:27:32 - 	 Ignored packets:0 0 
+2026-02-20 19:27:32 - PCAP duration 0 seconds
+2026-02-20 19:27:32 - ----------------------------------------------------------------------------
+2026-02-20 19:27:33 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 11
+2026-02-20 19:27:33 - ----------------------------------------------------------------------------
+
+2026-02-20 19:31:17 - 
+2026-02-20 19:31:17 - CICFlowMeterV2 found: 1 Files.
+2026-02-20 19:31:17 - 
+2026-02-20 19:31:17 - 
+2026-02-20 19:31:17 - Working on... true_clean_normal.pcap 
+2026-02-20 19:31:17 - Done! in 0 seconds
+2026-02-20 19:31:17 - 	 Total packets: 103
+2026-02-20 19:31:17 - 	 Valid packets: 103
+2026-02-20 19:31:17 - 	 Ignored packets:0 0 
+2026-02-20 19:31:17 - PCAP duration 0 seconds
+2026-02-20 19:31:17 - ----------------------------------------------------------------------------
+2026-02-20 19:31:17 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-20 19:31:17 - ----------------------------------------------------------------------------
+
+2026-02-20 19:33:27 - 
+2026-02-20 19:33:27 - CICFlowMeterV2 found: 1 Files.
+2026-02-20 19:33:28 - 
+2026-02-20 19:33:28 - 
+2026-02-20 19:33:28 - Working on... benign.pcap 
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Forward flow closed due to FIN Flag
+2026-02-20 19:33:28 - Done! in 0 seconds
+2026-02-20 19:33:28 - 	 Total packets: 909
+2026-02-20 19:33:28 - 	 Valid packets: 906
+2026-02-20 19:33:28 - 	 Ignored packets:3 3 
+2026-02-20 19:33:28 - PCAP duration 7 seconds
+2026-02-20 19:33:28 - ----------------------------------------------------------------------------
+2026-02-20 19:33:28 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 116
+2026-02-20 19:33:28 - ----------------------------------------------------------------------------
+
+2026-02-23 12:06:15 - 
+2026-02-23 12:06:15 - CICFlowMeterV2 found: 1 Files.
+2026-02-23 12:06:16 - 
+2026-02-23 12:06:16 - 
+2026-02-23 12:06:16 - Working on... tiny_attack.pcap 
+2026-02-23 12:06:16 - Done! in 0 seconds
+2026-02-23 12:06:16 - 	 Total packets: 70
+2026-02-23 12:06:16 - 	 Valid packets: 70
+2026-02-23 12:06:16 - 	 Ignored packets:0 0 
+2026-02-23 12:06:16 - PCAP duration 0 seconds
+2026-02-23 12:06:16 - ----------------------------------------------------------------------------
+2026-02-23 12:06:16 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-23 12:06:16 - ----------------------------------------------------------------------------
+
+2026-02-23 12:10:07 - 
+2026-02-23 12:10:07 - CICFlowMeterV2 found: 1 Files.
+2026-02-23 12:10:09 - 
+2026-02-23 12:10:09 - 
+2026-02-23 12:10:09 - Working on... tiny_attack.pcap 
+2026-02-23 12:10:09 - Done! in 0 seconds
+2026-02-23 12:10:09 - 	 Total packets: 70
+2026-02-23 12:10:09 - 	 Valid packets: 70
+2026-02-23 12:10:09 - 	 Ignored packets:0 0 
+2026-02-23 12:10:09 - PCAP duration 0 seconds
+2026-02-23 12:10:09 - ----------------------------------------------------------------------------
+2026-02-23 12:10:09 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-23 12:10:09 - ----------------------------------------------------------------------------
+
+2026-02-23 14:52:47 - 
+2026-02-23 14:52:47 - CICFlowMeterV2 found: 1 Files.
+2026-02-23 14:52:49 - 
+2026-02-23 14:52:49 - 
+2026-02-23 14:52:49 - Working on... tiny_attack.pcap 
+2026-02-23 14:52:49 - Done! in 0 seconds
+2026-02-23 14:52:49 - 	 Total packets: 70
+2026-02-23 14:52:49 - 	 Valid packets: 70
+2026-02-23 14:52:49 - 	 Ignored packets:0 0 
+2026-02-23 14:52:49 - PCAP duration 0 seconds
+2026-02-23 14:52:49 - ----------------------------------------------------------------------------
+2026-02-23 14:52:49 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-23 14:52:49 - ----------------------------------------------------------------------------
+
+2026-02-23 14:55:04 - 
+2026-02-23 14:55:05 - CICFlowMeterV2 found: 1 Files.
+2026-02-23 14:55:05 - 
+2026-02-23 14:55:05 - 
+2026-02-23 14:55:05 - Working on... tiny_attack.pcap 
+2026-02-23 14:55:05 - Done! in 0 seconds
+2026-02-23 14:55:05 - 	 Total packets: 70
+2026-02-23 14:55:05 - 	 Valid packets: 70
+2026-02-23 14:55:05 - 	 Ignored packets:0 0 
+2026-02-23 14:55:05 - PCAP duration 0 seconds
+2026-02-23 14:55:05 - ----------------------------------------------------------------------------
+2026-02-23 14:55:06 - 
+
+----------------------------------------------------------------------------
+ TOTAL FLOWS GENERATED: 1
+2026-02-23 14:55:06 - ----------------------------------------------------------------------------
+
