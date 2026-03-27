@@ -1,6 +1,5 @@
 C:\Users\user\AppData\Local\Programs\Python\Python310\python.exe
-$env:GEMINI_API_KEY="AIzaSyDPoEFclCtUZJnNQ-NCaC7QowPEd_SJVT8"
+$env:GEMINI_API_KEY=your-key-here
 & "C:\Users\user\AppData\Local\Programs\Python\Python310\python.exe" -m uvicorn app.main:app --port 9000 --reload
 cd "C:\Program Files\ZAP\Zed Attack Proxy"
 &"C:\Program Files\Java\jdk-17\bin\java.exe" -Xmx512m -jar "C:\Program Files\ZAP\Zed Attack Proxy\zap-2.16.1.jar" -daemon -port 8090
-AIzaSyCaQ8RGW_3-_vqmjLgYLClx_oxDe2Puuo8
